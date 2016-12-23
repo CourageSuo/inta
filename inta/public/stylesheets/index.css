@@ -1,0 +1,7 @@
+.navbar-nav li a {
+   color: red;
+ }
+
+.navbar-nav a:hover {
+ color: grey;
+}

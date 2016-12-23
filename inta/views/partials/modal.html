@@ -1,0 +1,48 @@
+    <!-- 试一下modal,版本只适用于3.3.7 -->
+  <div class="modal fade" id="myModal" role="dialog">
+  <!-- <div class="modal fade" id="myModal" role="dialog"> -->
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <!-- <h4 class="modal-title">Modal Header</h4> -->
+          <img src="/images/inta.png" style="width: 60px;height: 21px;" />
+        </div>
+        <div class="modal-body">
+          <form id="idForm">
+          <input type="hidden" name="flagl" value="login">
+          <input type="text" name="user" placeholder="用户名">
+          <input type="password" name="pass" placeholder="密码">
+          <input type="submit" style="color:#FFFFFF;background-color: #228B22" name="login" class="login loginmodal-submit" value="登录">
+          </form>
+          <script type="text/javascript">
+            $("#idForm").submit(function(e) {
+        
+            var url = "/users"; // the script where you handle the form input.
+        
+            $.ajax({
+             type: "POST",
+             url: url,
+             data: $("#idForm").serialize(), // serializes the form's elements.
+             success: function(data)
+                   {
+                       if(data === 'ok'){
+                        location.href = '/'
+                       } else {
+                        alert(data)
+                       }
+                       
+                     }
+              });
+        
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+          });
+          </script>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

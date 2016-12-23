@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>课程</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/jquery-ui.min.css">
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/jquery-ui.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+     var cc = <%- courseContent %>
+     var cocm = <%- courseComment %>
+     var flag = <%= flag %>
+  </script>
+</head>
+<body>
+
+  <!-- 第一块区域导航栏 -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/" style="font-size: 27px"><b style="color: #C71585">I</b><b style="color:#483D8B">N</b><b style="color: #FFD700">T</b><b style="color: #228B22">A</b>&nbsp;&nbsp;<small><small>all for ease</small></small></a>
+
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#"></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <script type="text/javascript">var flag = <%= flag %></script>
+        <%  if(flag) { %>
+        <li>
+         <div class="dropdown">
+            <h5 class="btn dropdown-toggle" data-toggle="dropdown"> <%= userN %></h5>
+            <!-- 只要加上这行代码就播放不出来 -->
+            <!-- <ul class="dropdown-menu"> -->
+<!--               <li><a>学号:<span style="color:#FF4500"><%= userNo %></span></a></li>
+              <li><a href="/users/info/out"><p style="color: #2F4F4F">退出</p></a></li> -->
+              <!-- <li><a href="#">JavaScript</a></li> -->
+            <!-- </ul> -->
+         </div>
+        </li>
+        <li><img src="<%= userIcon %>" class="img-circle" style="width:40px;height: 40px;margin-top: 5px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <% } else { %>
+        <li><a style="padding-left: 0"><button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal">登录</button></li></a>
+        <li><a href="/users" style="padding-left: 0"><button type="button" class="btn btn-info btn-xs" >注册</button>&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <% } %>
+      </ul>
+    </div>
+  </nav>
+ 
+<!-- 视频和导航部分 -->
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+    <video autoplay loop controls class="embed-responsive-item">
+        <source class='src' type="video/mp4">
+        <script type="text/javascript">
+          //给src增加图片地址
+          $(".src").attr("src", cc.src);
+        </script>
+    </video>
+</div>
+  </div>
+  <div class="col-sm-4">
+  <h4>课程选择</h4>
+  <div class="list-group listCourse" style="overflow: auto; overflow-y:scroll;max-height:360px">
+  </div>
+  <script type="text/javascript">//根据JSON展示课程列表
+    $.each(cc.urlAndName, function( index, value ) {
+        var beAppend = '<a href="/course' + value.url + '" class="list-group-item">' + value.name + '</a>'
+        $(".listCourse").append(beAppend)
+    });
+  </script>
+  </div>
+</div>
+<hr>
+
+<div class="container">
+  <h2><%= showCouserName %>课程</h2>
+  <blockquote>
+  <p id="pa"></p>
+  </blockquote>
+  <script type="text/javascript">
+    var cn = cc.urlAndName
+    $("#pa").text(cn[<%= nnn %> - 1].name)
+  </script>
+  <hr>
+
+  <div class="commentPart">
+    <!-- collapsible start -->
+    <div>
+    <button id="critica" type="button" class="btn btn-info btn-lg showComment">提问</button>
+    </div>
+
+    <!-- collapsible over -->
+    <div style="clear:both;"><br></div>
+      <!-- 页面加载时把评论加载 -->
+    <div id="insertComment" style="clear:both;"></div>
+  </div>
+    <script type="text/javascript" src="/javascripts/courseHtml/showComment.js">
+    </script>
+
+
+<!-- 两个demo表示一个是回复，一个是评论,在加一个bool值在input中 -->
+    <div id="forCritic" class="collapse">
+      <form class="target tCritic">
+        <div class="form-group">
+          <label for="comment"></label>
+          <textarea class="form-control comment" rows="5" name="comment"></textarea>
+
+        </div>
+        <input type="hidden" value="<%= userN %>" name="nameComment">
+        <input type="hidden" value="<%= userIcon %>" name="iconComment">
+        <input type="hidden" name="cDateTime" class="dataTime dtCritic">
+        <input type="hidden" name="boolean" value="true">
+        <input type="submit" class="btn btn-danger" style="float: right;" value="提交" >
+      </form>
+    </div>
+
+    <div id="forReply" class="collapse">
+      <form class="target tComment">
+        <div class="form-group">
+          <label for="comment"></label>
+          <textarea class="form-control comment" rows="5" name="comment"></textarea>
+
+        </div>
+        <input type="hidden" value="<%= userN %>" name="nameComment">
+        <input type="hidden" value="<%= userIcon %>" name="iconComment">
+        <input type="hidden" name="cDateTime" class="dataTime dtComment">
+        <input type="hidden" name="cIndex" class="idComment" value="idcomment">      
+        <input type="hidden" name="boolean" value="false">
+        <input type="submit" class="btn btn-danger" style="float: right;" value="提交" >
+      </form>
+    </div>
+
+<!-- **************************** -->
+
+    <script type="text/javascript" src="/javascripts/courseHtml/submitComment.js">
+    </script>
+
+
+  
+</div>
+
+
+ 
+<!-- 下面为footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+  <% include ./partials/modal.html %>
+</body>
+</html>

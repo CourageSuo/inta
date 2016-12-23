@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>inta</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+		<script src="javascripts/jquery.min.js"></script>
+		<script src="javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .footer {
+      margin:0;
+      padding:0;
+      border-radius: 0;
+    }
+      .forImg {
+        width: 120px;
+        border-radius: 10%;
+        /*background-color: #CD853F;*/
+        background-color: #F0F8FF;
+        border: 2px solid #A0522d;
+        box-shadow: 4px 4px 10px 3px #DAA520;
+      }
+      .imgTitle {
+        width: 120px;
+        height: 120px;
+      }
+      .forImg {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+    </style>
+</head>
+<body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+  <!-- 第二块区域标题栏 -->
+  <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+               <h1>一切皆为易</h1> 
+               <p>记得最初学习计算机语言时，最容易理解的一行代码就是 <span style="color: #228b22"><strong>int a<span id="one">|</span></strong></span> </p>
+               <script type="text/javascript">
+               setInterval(function(){
+                if($("#one").css("display") == "inline") {
+                    $("#one").css("display","none")
+                } else {
+                    $("#one").css("display","inline")
+                }
+               },600)
+
+               </script> 
+            </div>
+            <div class="col-md-2">
+                <div class="forImg">
+                 <img src="/images/default_1.png" class="imgTitle">
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!-- 第三块区域就是主要显示的内容栏 -->
+  <!-- 3.1 -->
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/node">
+          <img src="/images/node.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/node"><h3 class="media-heading">Node课程</h3></a>
+        <p><small>本套视频讲解Node.js的基本知识，包括javascript回调的概念，node的运行机制和事件驱动。以及node中常用的核心模块。</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- 3.2 -->
+    <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/npm">
+        <img src="/images/npm.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/npm"><h3 class="media-heading">NPM课程</h3></a>
+        <p><small>NPM是javascript的包管理工具,我们可以通过NPM查找和复用其他开发者的代码，同样，我们也可以通过NPM分享自己的功能模块供其他开发者使用，共同提升开发效率。</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- 3.3 -->
+    <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/git">
+        <img src="/images/github.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/git"><h3 class="media-heading">Git课程</h3></a>
+        <p><small>Git是一个开源的版本管理系统，</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- 3.4 -->
+    <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/autolayout">
+        <img src="/images/auto.jpg" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/autolayout"><h3 class="media-heading">IOS-AutoLayout课程</h3></a>
+        <p><small>本课程主要讲述IOS中AutoLayout的使用，以及IOS9的新特性stackLayout。</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- 3.5 -->
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <img src="/images/sass.jpg" class="media-object" style="width:200px">
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading">SASS课程</h3>
+        <p><small>这里说的课程可不是如何预防03年的非典，而是如何使用sass把js中的js转化成为你自己真正的css，让你更懂得如何使用前端，你就是前端的王者</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- 3.6 -->
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <img src="/images/ejs.jpg" class="media-object" style="width:200px">
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading">EJS课程</h3>
+        <p><small>这里说的课程可不是如何预防03年的非典，而是如何使用sass把js中的js转化成为你自己真正的css，让你更懂得如何使用前端，你就是前端的王者</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- 3.7 -->
+    <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <img src="/images/backbone.jpg" class="media-object" style="width:200px">
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading">BackBone课程</h3>
+        <p><small>这里说的课程可不是如何预防03年的非典，而是如何使用sass把js中的js转化成为你自己真正的css，让你更懂得如何使用前端，你就是前端的王者</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <!-- 3.8 -->
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/sublime">
+          <img src="/images/sublime.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/sublime"><h3 class="media-heading">Sublime课程</h3></a>
+        <p><small>本套视频讲述了sublime使用，其中包括行sublime编译器的基本使用方法，而且还包括snippet，宏定义，element的一些用法</small></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  
+  <% include ./partials/foot.html %>
+
+  <!-- 登录注册model -->
+  <% include ./partials/modal.html %>
+</body>
+</html>

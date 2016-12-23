@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>课程大纲</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    </style>
+</head>
+<body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>GIT课程大纲</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/sublime/1">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>sublime第一节课</h3>
+            <p>大大大大大大</p>
+          </div> 
+      </a>
+      <a href="/course/sublime/1">Project 1</p></a>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 3</p> 	
+    </div>
+  </div>
+  <!-- 第二行视频 -->
+    <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 3</p> 	
+    </div>
+  </div>
+  <!-- 第三行视频 -->
+    <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 3</p> 	
+    </div>
+  </div>
+  <!-- 第四行视频 -->
+    <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 3</p> 	
+    </div>
+  </div>
+  <!-- 第五行视频 -->
+    <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 3</p> 	
+    </div>
+  </div>
+</div><br>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>Git课程概述</h2>
+  <p>Git是</p>
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第一节：版本管理介绍</div>
+      <div class="panel-body">版本管理系统简而言之就是记录文件或文件夹的变化，以便一段时间过后找到对应每个变化的文件或文件夹，1.直接粘贴复制，就是版本管理 2.本地版本管理系统，但不能合作开发 3.分布版本管理系统</div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第二节：Git基础</div>
+      <div class="panel-body">1.三个状态，committed 2 modified 3 staged 2.三个状态对应的三个工作路径，1.working directory staging area .git directoyr(repository) 3.Git directory clone will copy 4.working路径是项目版本的一个独立的checkout（35）。staging area是一个文件，在你的Git directory 下，保存下一个版本，将会改变的部分 一、在workingdirectory中改变文件，二。adding snapshots of them to your stagin area 三、提交成为git的一个部分</div>
+    </div>
+    <!-- 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第三节：设置Git</div>
+      <div class="panel-body">1./etc/gitconfig -- system 2. gitonfig /.config /git/config --global</div>
+    </div>
+    <!-- 4 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第四节：Git的基本命令</div>
+      <div class="panel-body">主要讲述Git的一些基本命令，如git，git commit 加a 可以直接跳过，进行提交，git rm 是在stage area 删除文件。加cached就是只在working directory下remove文件（57） git mv 这是重新命名文件 git log看history -p -2(59)git commit --amend git reset git tag命令   在说一个alias</div>
+    </div>
+    <!-- 5 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第五节：Git的远程操作</div>
+      <div class="panel-body">（70）</div>
+    </div>
+    <!-- 6 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第六节：diff命令</div>
+      <div class="panel-body">直接diff命令比较unstage和stage文件的区别，diff --stage比较stage和最后一次提交的区别.git不会输出最后版本的改变（52）【如果没有unstage，他会灭有输出】</div>
+    </div>
+    <!-- 7 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第七节：Git分支</div>
+      <div class="panel-body">默认的分支是master,创建和转移到相应分支git checkout -b iss53  git merge 删除分支git branch -d hotfix</div>
+    </div>
+    <!-- 8 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第八节：Git服务器</div>
+      <div class="panel-body">如何在自己的服务器配置Git</div>
+    </div>
+    <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第九节：GitHub</div>
+      <div class="panel-body">1.GitHub通过email映射的git 2.（221） 建立新的repository 3.管理pull Request（224）4.special file包括readme（223）</div>
+    </div>
+    <!-- 10 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第十节：liscence</div>
+      <div class="panel-body">https://help.github.com/articles/open-source-licensing/</div>
+    </div>
+
+  </div>
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p>node.js 是由一个傻逼屌丝写的，写的还不如我好了，其实中国人也可以写出那么好的动心了，真的，我84！</p>
+  <blockquote>
+    <p>BOOTSTRAP:
+1.实现响应式布局。
+2.让页面更美观，并提供了一些基础模板
+3.兼容性良好（JQuery可以兼容不同的浏览器）
+4.bootstrap twitter 
+5.bootstrap是一个实现响应式布局框架</p>
+    <footer>脚印，就是foot</footer>
+  </blockquote>
+</div>
+
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+</body>
+</html>
