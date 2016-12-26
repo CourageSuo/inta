@@ -137,37 +137,77 @@
     <!-- 2 -->
     <div class="panel panel-default">
       <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第二节：npm基本使用</strong></div>
-      <div class="panel-body">本节讲述如何安装包文件，及其相应的版本。如何查找包文件的安装路径。<br>如何全局安装包文件，及查找相应路径。<br>安装包文件后，会在当前目录下创建node_modular路径（文件夹）<br>通过npm ls --depth=0查看包每层的依赖情况</div>
+      <div class="panel-body">本节讲述如何安装包文件，及其相应的版本。如何查找包文件的安装路径。安装包文件后，会在当前目录下创建node_modular路径（文件夹）
+      <br>npm install 包名称
+      <br>npm ls 查看当前项目中安转的包文件
+      <br>npm uninstall 卸载包
+      <br>npm install 包名称 -g 全局安装包文件
+      <br>npm ls -g 查看全局的包文件
+      <br>npm root (-g) 查看包的安转路径（或全局安装路径)
+      </div>
     </div>
     <!-- 3 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第三节：npm更新包文件</strong></div>    
-      <div class="panel-body">本节主要讲述如何查看已安装的包文件是否为最新版本，及如何更新最新版本的包文件。</div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第三节：npm递归安装</strong></div>    
+      <div class="panel-body">
+        在安装比较复杂的包文件时，可能会依赖其他的包文件。npm通过package.json安装依赖的包文件。我们可以通过：<br> npm ls --depth=<数字> <br>简化的查看安装包文件的属性结构
+      </div>
     </div>
     <!-- 4 -->
      <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第四节：卸载包文件</strong></div>
-      <div class="panel-body">本节内容很简单，就是使用npm rm commander卸载包文件</div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第四节：package.json</strong></div>
+      <div class="panel-body">npm通过package.json简便快捷的安装包文件，及其依赖的包文件。顾名思义，package.json文件内容是一个json串。package.json必须包含"name"和"version"键。
+      <br> name: 包的名称
+      <br> version: 包的版本
+      <br> main: 指定包的入口文件，默认是index.js
+      <br> script: 指定npm脚本命令
+      <br> keyword: 便于搜索引擎搜索的关键字
+      <br> author: 作者
+      <br> licence: 认证许可
+      <br> repository: 包位于git的连接地址
+      </div>
       </div>
     <!-- 5 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第五节：package.json</strong></div>
-      <div class="panel-body">本节主要讲述package.json的作用，package.json文件的构成，以及在package.json中每一个键的具体意义。如：main代表包的入口文件，因为一个可能会包含多个文件最后将讲述如何快速生成package.json文件。</div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第五节：自动创建package.json文件</strong></div>
+      <div class="panel-body">
+        简化创建package.json的方法
+        <br>npm init
+      </div>
+    </div>
+    <!-- 5.1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第六节：package.json依赖文件</strong></div>
+      <div class="panel-body">
+        在package.json的dependencies键中添加相应的依赖包。就可以通过
+        <br>npm install 
+        <br>直接安装其依赖的包文件
+        <br> "*" 和 "" 表示最新版本
+        <br> "@x.x.x" 表示对应的版本
+      </div>
     </div>
     <!-- 6 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第六节：发表包文件</strong></div>
-      <div class="panel-body">本节主要讲述如何发表自己的包文件到npm，供其他开发者使用。</div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第七节：发表包</strong></div>
+      <div class="panel-body">创建完package.json文件后，可以通过
+      <br>npm publish
+      <br>发表自己创建的包分享给其他开发者使用。在这里需要注意npm会将当前目录中的所用文件发表的npm中，发表之前需要添加用户。 如果想删除包使用
+      <br>npm unpubish --force 包名称
+      <br>对其进行删除（限24小时内操作）
+      <br><strong style="color:red"> 注：本视频index.js代码是funciton 应为function</strong>
+      </div>
     </div>
     <!-- 7 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第七节：包和模块</strong></div>
-      <div class="panel-body">node.js和npm中，包和模块的定义很容易混淆。<br>包是一个被package.json描述的一个文件夹或路径。<br>模块可以被node.js中的require引用。<br>大多数的包都是模块</div>
-    </div>
-    <!-- 8 -->
-    <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第八节：npm运行原理</strong></div>
-      <div class="panel-body">本节主要讲述如何发表自己的包文件到npm，供其他开发者使用。</div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第八节：包和模块</strong></div>
+      <div class="panel-body">node.js和npm中，包和模块的定义很容易混淆。
+      <br>包是一个被package.json描述的一个文件夹或路径。
+      <br>模块可以被node.js中的require引用。
+      <br>大多数的包都是模块
+      <br>包中的package.json有main键
+      <br>包中包含index.js
+      <br>单独的javascript文件
+      </div>
     </div>
 
 </div>

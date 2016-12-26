@@ -151,6 +151,12 @@ router.post('/course/:course/:num',function(req,res,next) {
 
 })
 
+router.get('/introduction',function(req,res,next){
+
+   res.render('./introduction/self.html')
+
+})
+
 
 
 module.exports = router;
