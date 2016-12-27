@@ -156,53 +156,116 @@
 <!-- 视频知识文字版 -->
 <div class="container brief">
   <h2>node课程概述</h2>
-  <p>Git是</p>
+  <p>node.js使用javascript编写后端程序，发表于2009年，其独特的非阻塞I/O,和事件驱动特性，大大提高了服务器的运行效率。</p>
   <div class="panel-group">
   <!-- 1 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第一节：版本管理介绍</div>
-      <div class="panel-body">版本管理系统简而言之就是记录文件或文件夹的变化，以便一段时间过后找到对应每个变化的文件或文件夹，1.直接粘贴复制，就是版本管理 2.本地版本管理系统，但不能合作开发 3.分布版本管理系统</div>
+      <div class="panel-heading">第一节：回调函数</div>
+      <div class="panel-body">通过函数作为参数的形式，讲述了回调函数。
+      <br>使用函数作为参数，这个参数可以向函数一样调用
+      </div>
     </div>
     <!-- 2 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第二节：Git基础</div>
-      <div class="panel-body">1.三个状态，committed 2 modified 3 staged 2.三个状态对应的三个工作路径，1.working directory staging area .git directoyr(repository) 3.Git directory clone will copy 4.working路径是项目版本的一个独立的checkout（35）。staging area是一个文件，在你的Git directory 下，保存下一个版本，将会改变的部分 一、在workingdirectory中改变文件，二。adding snapshots of them to your stagin area 三、提交成为git的一个部分</div>
+      <div class="panel-heading">第二节：全局对象</div>
+      <div class="panel-body">全局对象在整个项目的任何地方都可以调用
+      <br>__dirname
+      <br>__filename
+      <br>require
+      <br>console
+      <br>exports
+      <br>module
+      等
+      </div>
     </div>
     <!-- 3 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第三节：设置Git</div>
-      <div class="panel-body">1./etc/gitconfig -- system 2. gitonfig /.config /git/config --global</div>
+      <div class="panel-heading">第三节：module.exports</div>
+      <div class="panel-body">简述module.exports如何曝光文件
+      <br>exports和module.exports都可以曝光文件，使用exports不能直接曝光文件，必须为其添加属性。而module.exports可以直接曝光文件。
+      </div>
     </div>
     <!-- 4 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第四节：Git的基本命令</div>
-      <div class="panel-body">主要讲述Git的一些基本命令，如git，git commit 加a 可以直接跳过，进行提交，git rm 是在stage area 删除文件。加cached就是只在working directory下remove文件（57） git mv 这是重新命名文件 git log看history -p -2(59)git commit --amend git reset git tag命令   在说一个alias</div>
+      <div class="panel-heading">第四节：核心模块</div>
+      <div class="panel-body">本节讲述了node.js的核心模块，包括：
+      <br>event模块
+      <br>fs模块
+      <br>http模块
+      <br>访问<a href="https://nodejs.org/">官网</a>获得详细信息
+      </div>
     </div>
     <!-- 5 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第五节：Git的远程操作</div>
-      <div class="panel-body">（70）</div>
+      <div class="panel-heading">第五节：事件模块</div>
+      <div class="panel-body">本节讲述了事件模块的使用
+      <br>on监听事件
+      <br>emit发射事件
+      等
+      </div>
     </div>
     <!-- 6 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第六节：diff命令</div>
-      <div class="panel-body">直接diff命令比较unstage和stage文件的区别，diff --stage比较stage和最后一次提交的区别.git不会输出最后版本的改变（52）【如果没有unstage，他会灭有输出】</div>
+      <div class="panel-heading">第六节：文件读写（1）</div>
+      <div class="panel-body">同步读写文件</div>
     </div>
     <!-- 7 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第七节：Git分支</div>
-      <div class="panel-body">默认的分支是master,创建和转移到相应分支git checkout -b iss53  git merge 删除分支git branch -d hotfix</div>
+      <div class="panel-heading">第七节：文件读写（2）</div>
+      <div class="panel-body">异步读写文件</div>
     </div>
     <!-- 8 -->
     <div class="panel panel-default">
-      <div class="panel-heading">第八节：Git服务器</div>
-      <div class="panel-body">如何在自己的服务器配置Git</div>
+      <div class="panel-heading">第八节：同步异步</div>
+      <div class="panel-body">本节讲述了同步异步的基本概念</div>
     </div>
     <!-- 9 -->
      <div class="panel panel-default">
-      <div class="panel-heading">第九节：GitHub</div>
-      <div class="panel-body">1.GitHub通过email映射的git 2.（221） 建立新的repository 3.管理pull Request（224）4.special file包括readme（223）</div>
+      <div class="panel-heading">第九节：Buffer</div>
+      <div class="panel-body">
+      Buffer是独立于node访问计算机的内存
+      </div>
     </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第十节：Stream</div>
+      <div class="panel-body">
+      流的概念及流的基本使用
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第十一节：http模块</div>
+      <div class="panel-body">
+      本节主要讲述http模块的基本使用
+      <br>http接收请求
+      <br>http响应请求
+      <br>http监听端口
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第十二节：node.js架构</div>
+      <div class="panel-body">
+      本节讲述node.js的架构，内容包括
+      <br>操作系统
+      <br>v8引擎
+      <br>C++编写的底层代码
+      <br>node.js API
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第十三节：node.js运行原理</div>
+      <div class="panel-body">
+      本节讲述了node.js的运行原理
+      <br>eventloop
+      <br>事件监听
+      <br>函数栈
+      </div>
+    </div>
+
+
   </div>
 </div>
 <!-- 技术史 -->

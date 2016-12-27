@@ -1274,7 +1274,224 @@
                                  "url" : "/node/13",
                                  "name" : "第十三节：node.js运行原理"
                                }]
-             }
+             },
+  "npm/1" : { 
+               "src" : "/video/npm/npm_1.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
+  "npm/2" : { 
+               "src" : "/video/npm/npm_2.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
+  "npm/3" : { 
+               "src" : "/video/npm/npm_3.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
+  "npm/4" : { 
+               "src" : "/video/npm/npm_4.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
+  "npm/5" : { 
+               "src" : "/video/npm/npm_5.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
+  "npm/6" : { 
+               "src" : "/video/npm/npm_6.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
+  "npm/7" : { 
+               "src" : "/video/npm/npm_7.mp4",
+               "urlAndName" : [{
+                                 "url" : "/npm/1",
+                                 "name" : "第一节：npm简介"
+                               },
+                               {
+                                 "url" : "/npm/2",
+                                 "name" : "第二节：npm基本使用"
+                               },
+                               {
+                                 "url" : "/npm/3",
+                                 "name" : "第三节：更新包文件"
+                               },
+                               {
+                                 "url" : "/npm/4",
+                                 "name" : "第四节：卸载包文件"
+                               },
+                               {
+                                 "url" : "/npm/5",
+                                 "name" : "第五节：package.json"
+                               },
+                               {
+                                 "url" : "/npm/6",
+                                 "name" : "第六节：发表包文件"
+                               },
+                               {
+                                 "url" : "/npm/7",
+                                 "name" : "第七节：包和模块"
+                               }]
+             },
 }
 
 
