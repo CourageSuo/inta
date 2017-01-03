@@ -1,5 +1,7 @@
-        // var cocm = <%- courseComment %>
+         // var cocm = <%- courseComment %>
+         if(cocm !== null) {
          var objCC = cocm.courseComment
+         console.log(objCC)
         //返回数据，显示列表
         $.each(objCC,function(index,item){
         /******************************/
@@ -49,6 +51,7 @@
         // $(".userComment:first").text(item.cComment)
         $(".timeData:first").text(item.cDate)
         })
+        }
 
         /******************************/
         // 评复三：点击回复，把输入框添加到，点击回复的div下

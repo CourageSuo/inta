@@ -61,7 +61,7 @@
 
           } else {
 
-          alert( "<h3>您还没有登录inta，请登录后提问。</h3>" );
+          alert( "您还没有登录inta，请登录后提问。" );
           event.preventDefault();
           }
 

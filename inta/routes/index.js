@@ -58,15 +58,32 @@ router.get('/course/:course/:num',function(req,res,next) {
 	var courseContent = courseKey[urlParam]//使用中括号访问数据
 
     if(req.cookies.intaUserName === undefined) {
-    	res.render('course.html',{
-    		"flag": 0,
-    		"courseContent": JSON.stringify(courseContent),
-        "courseComment": 0,
-        "userN":0,
-        "userIcon":0,
-        "showCouserName" : req.params.course,
-        "nnn" :  req.params.num
-    	})
+    	 // res.render('course.html',{
+        // var mjs = require('mongojs')
+        var db = require('mongojs')('INTA')
+        db.collection('course').findOne({_id:courseNum},function(err,doc){
+          if(err) throw err
+          res.render('course.html',{
+            "courseContent": JSON.stringify(courseContent),
+            "courseComment": JSON.stringify(doc),
+            "flag": 0,
+            "userN": 0,
+            "userIcon" : 0,
+            "showCouserName" : req.params.course,
+            "nnn" :  req.params.num  
+          })
+          db.close()
+        })
+        
+      
+    	// 	"flag": 0,
+    	// 	"courseContent": JSON.stringify(courseContent),
+     //    "courseComment": 0,
+     //    "userN":0,
+     //    "userIcon":0,
+     //    "showCouserName" : req.params.course,
+     //    "nnn" :  req.params.num
+    	// })
     } else {	
   
     	cdb.cMongoIcon(req.cookies.intaUserName,function(err,db,icon,uid) {
@@ -75,7 +92,6 @@ router.get('/course/:course/:num',function(req,res,next) {
         
         db.collection('course').findOne({_id:courseNum},function(err,doc){
           if(err) throw err
-          console.log(doc)
           res.render('course.html',{
             "courseContent": JSON.stringify(courseContent),
             "courseComment": JSON.stringify(doc),
