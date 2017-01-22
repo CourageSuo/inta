@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>课程大纲</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .img-responsive {
+      box-shadow: 2px 2px 5px 1px grey;
+    }
+
+    </style>
+</head>
+<body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>Express课程大纲</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/express/1">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">Express安装</h4>
+          </div> 
+      </a>
+      <a href="/course/express/1"><h5>第一节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/2">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">中间件-函数</h4>
+          </div> 
+      </a>
+      <a href="/course/express/2"><h5>第二节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/3">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">req和res</h4>
+          </div> 
+      </a>
+      <a href="/course/express/3"><h5>第三节</h5></a>
+    </div>
+  </div>
+  <!-- 第二行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/express/4">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">中间件-next</h4>
+          </div> 
+      </a>
+      <a href="/course/express/4"><h5>第四节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/5">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">路由</h4>
+          </div> 
+      </a>
+      <a href="/course/express/5"><h5>第五节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/6">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">静态路径</h4>
+          </div> 
+      </a>
+      <a href="/course/express/6"><h5>第六节</h5></a>
+    </div>
+  </div>
+  <!-- 第三行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/express/7">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">路由对象</h4>
+          </div> 
+      </a>
+      <a href="/course/express/7"><h5>第七节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/8">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">设置</h4>
+          </div> 
+      </a>
+      <a href="/course/express/8"><h5>第八节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/9">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">模板引擎</h4>
+          </div> 
+      </a>
+      <a href="/course/express/9"><h5>第九节</h5></a>
+    </div>
+  </div>
+  <!-- 第四行视频 -->
+ <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/express/10">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">常用模块</h4>
+          </div> 
+      </a>
+      <a href="/course/express/10"><h5>第十节</h5></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/express/11">
+      <img src="/images/Course/express.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4 style="color: #259dff;text-shadow: none;">生成器</h4>
+          </div> 
+      </a>
+      <a href="/course/express/11"><h5>第十一节</h5></a>
+    </div>
+  
+  </div>
+</div><br>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>Express课程概述</h2>
+  <p>Express是一个简洁，灵活的node.js Web应用开发框架</p>
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第一节：express安装</div>
+      <div class="panel-body">
+        npm install express 安装express
+        <br>npm install -g express 全局安装express
+        <br>使用express：
+        <br>var express = require('express')  //引用express框架
+        <br>var app = express()               //创建express对象  
+        <br>app.listen(3001)                  //监听端口
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第二节：中间件--函数</div>
+      <div class="panel-body">
+      中间件：express在处理http请求-响应的过程中，执行任务的一系列函数
+      <br>app.use()是一个中间件函数，此函数接收的参数也是函数，也就是这里说的任务。
+      <br>app.use(function(){
+      <br>        console.log("hello inta")
+      <br>})
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第三节：req和res</div>
+      <div class="panel-body">
+      req和res分别代表http的请求对象和响应对象，具体属性和方法请参考下列官方文档：
+      <br><a href="http://expressjs.com/en/4x/api.html#req">req官方文档</a>
+      <br><a href="http://expressjs.com/en/4x/api.html#res">res官方文档</a>
+
+      </div>
+    </div>
+    <!-- 4 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第四节：中间件--next</div>
+      <div class="panel-body">
+      在express项目中可以有多个中间件，但需要在中间件的任务函数中加上next参数，并且调用next()才能执行下一个中间件
+      </div>
+    </div>
+    <!-- 5 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第五节：路由</div>
+      <div class="panel-body">
+      路由 = http请求方法 + http请求路径
+      <br>app.use()中间节接收任何路由
+      <br>express对象提供了一些方法来接收路由，如：
+      <br>app.get()
+      <br>app.post()等
+      </div>
+    </div>
+    <!-- 6 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第六节：静态路径</div>
+      <div class="panel-body">
+        通过express.static(路径)设置静态路劲
+        <br>设置完毕以后使用app.use(express.static())中间件执行设置
+        <br><span style="color:red">在express框架中，只有两个方法是通过express直接调用的（这里是通过类方法，不是通过对象方法调用的)一个就是本就课的<b>设置静态路径</b>，另一个就是下节课的<b>路由对象</b></span>
+      </div>
+    </div>
+    <!-- 7 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第七节：路由对象</div>
+      <div class="panel-body">
+        通过express.Router()创建路由对象
+        <br>路由对象包括get(),post(),put(),delete()等http请求方法
+        <br>路由对象其实可以说也是一个中间件
+        <br>路由对象有助于模块化处理http请求-响应
+
+      </div>
+    </div>
+    <!-- 8 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第八节：设置</div>
+      <div class="panel-body">
+      express通过app.set()设置express应用程序
+      <br>通过下列网址可以参考express应用程序的设置
+      <br><a href="http://expressjs.com/en/4x/api.html#app.set">http://expressjs.com/en/4x/api.html#app.set</a>
+      </div>
+    </div>
+    <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第九节：模板引擎</div>
+      <div class="panel-body">
+      模板引擎能使页面和数据分离
+      <br>app.set('view engine',模板引擎)      设置模板引擎
+      <br>app.set('views',页面路径)           设置页面路劲
+      <br>app.engine('html',ejs.rendFile)   设置引擎文件
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第十节：常用模块</div>
+      <div class="panel-body">
+      body-parse: 解析http请求的body
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;中间件调用:app.use(bodyParser.urlencoded({ extended: false }));
+      <br>cookie-parse: 解析http请求的cookie
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;中间件调用:app.use(cookieParser())
+      <br>server-favicon: 显示标签图标
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;中间件调用:app.use(favicon(路径 'favicon.ico')）
+      <br>morgan:  打印请求信息
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;中间件调用:app.use(logger('dev'))
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第十一节：生成器</div>
+      <div class="panel-body">
+       全局安装express生成器： npm install -g express-generator
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p style="color:#708090">express让你的Web开发变的一路顺风</p>
+  <blockquote>
+    <p>“我不在相信任何人”，这是Doug Wilson说的，3年以来一直维护express框架的程序员。
+    <br>在这么一个和谐的社会，尤其在月亮那么圆的美国，Doug Wilson为什么会这么说呢。因为express这个框架让它的作者TJ Holowaychuk给卖了！没错！ 一个开源的express框架，注意是开源的..被卖了。卖给了StrongLoop公司。Give credit where credit is due, TJ是有可赞之处的，因为我们耳熟能详的Express，Koa，Jade，ejs，Stylus, Mocha, Superagent，Commander等等，都是由TJ创建的，由他参与的项目更是数不胜数，起码为开源社区奉献了百万行代码，然而正是这个技术大牛的一失足，使他的名声一落千丈。因为我们都知道作为开源express，是由很多程序员共同奉献完成的。（开源代码怎么能卖，大家去看MIT吧）你这么一卖，等于葬掉了别人的情怀，而Doug Wilson就是被坑的人。而粘上铜臭的express在卖给StrongLoop的两年内没有得到一次pull request,最终移交给了Node Foundation。</p>
+    <footer>摘自 --- <a href="http://thefullstack.xyz/history-express-javascript-framework/">《The Unbelievable History of the Express JavaScript Framework》</a></footer><br>
+  </blockquote>
+</div>
+
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+</body>
+</html>

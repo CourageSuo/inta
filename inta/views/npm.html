@@ -46,7 +46,7 @@
     <a href="/course/npm/3">
        <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
           <div class="carousel-caption">
-            <h4>更新包文件</h4>
+            <h4>递归安装</h4>
           </div>
         </a>
       <a href="/course/sublime/3">第三节</a>   
@@ -58,7 +58,7 @@
     <a href="/course/npm/4">
        <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
           <div class="carousel-caption">
-            <h4>卸载包文件</h4>
+            <h4>package.json</h4>
           </div>
     </a>
       <a href="/course/npm/4">第四节</a>   
@@ -67,7 +67,7 @@
     <a href="/course/npm/5">
        <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
           <div class="carousel-caption">
-            <h4>package.js</h4>
+            <h4>自动创建package.json</h4>
           </div>
       </a>
       <a href="/course/npm/5">第五节</a>   
@@ -76,7 +76,7 @@
      <a href="/course/npm/6">
        <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
           <div class="carousel-caption">
-            <h4>发表包文件</h4>
+            <h4>dependencies</h4>
           </div>
       </a>
       <a href="/course/npm/6">第六节</a>   
@@ -88,23 +88,41 @@
     <a href="/course/npm/7">
        <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
           <div class="carousel-caption">
-            <h4>包和模块</h4>
+            <h4>devDependencies</h4>
           </div>
         </a>
-      <a href="/course/npm/7">第七节</a>   
+      <a href="/course/npm/7">第七节</a> 
     </div>
-<!--     <div class="col-sm-4">
+    <div class="col-sm-4">
     <a href="/course/npm/8">
        <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
           <div class="carousel-caption">
-            <h4>运行原理</h4>
+            <h4>package.json添加包</h4>
           </div>
+        </a>
       <a href="/course/npm/8">第八节</a>   
-    </div> -->
-
+    </div>
+    <div class="col-sm-4">
+    <a href="/course/npm/9">
+       <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4>发表包</h4>
+          </div>
+      <a href="/course/npm/9">第九节</a>   
+    </div>
   </div><br>
-  <!-- 第五行视频 -->
-
+  <!-- 第四行视频 -->
+   <div class="row">
+    <div class="col-sm-4">
+    <a href="/course/npm/10">
+       <img src="/images/Course/npm.jpg" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h4>包和模块</h4>
+          </div>
+        </a>
+      <a href="/course/npm/10">第十节</a>
+    </div>
+  </div> 
 </div><br>
 
 <!-- 视频知识文字版 -->
@@ -156,11 +174,12 @@
       <div class="panel-body">
         简化创建package.json的方法
         <br>npm init
+        <br>npm init --yes 自动创建package.json并使用其默认的值
       </div>
     </div>
     <!-- 5.1 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第六节：package.json依赖文件</strong></div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第六节：dependencies</strong></div>
       <div class="panel-body">
         在package.json的dependencies键中添加相应的依赖包。就可以通过
         <br>npm install 
@@ -169,12 +188,29 @@
         <br> "@x.x.x" 表示对应的版本
       </div>
     </div>
+    <!-- 5.2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第七节：devDependencies</strong></div>
+      <div class="panel-body">
+          devDependencies是表示开发中依赖的包文件
+          <br>个人理解：其实就是开发过程中，用到的一些用javascript写的一些工具，如编译sass，缩小js文件等
+      </div>
+    </div>
+    <!-- 5.2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第八节：package.json添加包</strong></div>
+      <div class="panel-body">
+          npm install 包名称 --save    向package.json中dependencies中添加包
+          <br>npm install 包名称  --save-dev   向package.json中devDependencies中添加包
+      </div>
+    </div>
     <!-- 6 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第七节：发表包</strong></div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第九节：发表包</strong></div>
       <div class="panel-body">创建完package.json文件后，可以通过
       <br>npm publish
       <br>发表自己创建的包分享给其他开发者使用。在这里需要注意npm会将当前目录中的所用文件发表的npm中，发表之前需要添加用户。 如果想删除包使用
+      <br>发表之前使用npm adduser 添加用户
       <br>npm unpubish --force 包名称
       <br>对其进行删除（限24小时内操作）
       <br><strong style="color:red"> 注：本视频index.js代码是funciton 应为function</strong>
@@ -182,7 +218,7 @@
     </div>
     <!-- 7 -->
     <div class="panel panel-default">
-      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第八节：包和模块</strong></div>
+      <div class="panel-heading" style="background-color: #C83B3C; color: white"><strong>第十节：包和模块</strong></div>
       <div class="panel-body">node.js和npm中，包和模块的定义很容易混淆。
       <br>包是一个被package.json描述的一个文件夹或路径。
       <br>模块可以被node.js中的require引用。
@@ -197,15 +233,10 @@
 <!-- 技术史 -->
 <div class="container">
   <h2>那年程序员</h2>
-  <p>npm, Inc. CEO, Isaac Z. Schlueter这个是写npm的那个程序员，现在创办了npm公司</p>
-  <blockquote>
-    <p>BOOTSTRAP:
-1.实现响应式布局。
-2.让页面更美观，并提供了一些基础模板
-3.兼容性良好（JQuery可以兼容不同的浏览器）
-4.bootstrap twitter 
-5.bootstrap是一个实现响应式布局框架</p>
-    <footer>脚印，就是foot</footer>
+  <p style="color:#708090">javascript, javascript, javascript.</p>
+  <blockquote style="border-left-color: #C83B3C;">
+    <p>npm的作者是Isaac Z. Schlueter（艾萨客·施吕特），看这个名字应该是个犹太人，它利用了犹太人独有的天赋与智慧一两天就把npm给完成了。写完以后继续对npm进行开发和维护。当初，他也写了一份js包文件在npm上的发布标准，但是对于初创阶段的艾萨客，根本就没人鸟他。它那时也没有创业资金，资源也有限。但是像很多成功的故事一样，他还是坚持不懈，自己开发javascript的包放到npm上，免费供别人使用。然后，npm从最初的十几个包，到现在的成千上万个包。就连艾萨客自己也没想到npm有如此迅猛的发展趋势，以后的发展差不多就都一样了，就是开办npm公司，出人CEO，跻身高富帅，赢取白富美，走向人生巅峰了... </p>
+    <footer>摘自 -- <a href="https://gist.github.com/mikeal/8947417">NPM history</a> </footer>
   </blockquote>
 </div>
 

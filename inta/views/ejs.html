@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>课程大纲</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    </style>
+</head>
+<body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>EJS课程</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/sass/1">
+      <img src="/images/Course/ejs.jpg" class="img-responsive" style="width:100%;border: 2px solid brown;" alt="Image">
+      </a>
+      <a href="/course/sass/1"><h5>EJS模板使用</h5></p></a>
+    </div>
+  </div>
+  <!-- 第二行视频 -->
+</div><br>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>EJS模板ejs</h2>
+  <p>Sass扩展了CSS3，增加了规则、变量、混入、选择器、继承等特性。并且可生成良好格式化的CSS 代码，易于组织和维护。</p>
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">模板引擎使用说明</div>
+      <div class="panel-body">
+      安装模板引擎： npm install ejs
+      <br>引用模板引擎： var ejs = require('ejs')
+      <br>express设置模板引擎： app.set('view engine', 'ejs')
+      <br>设置模板文件： app.engine('html',require('ejs').renderFile)
+      <br>模板文件引用数据语法：<%= 数据 %>
+      <br>模板文件引用JSON语法：<%- JSON %>
+      <br>模板文件引用代码语法： <% 代码  %>
+      <br>模板文件引用文档语法： <% include  文档 %>
+      </div>
+    </div>
+    
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p style="color:#708090">以后界面的世界就越来越美了</p>
+  <blockquote>
+    <p>Sass读起来总感觉像03年非典的sars，在加上其粉色调的主题，又太像小汤山的小护士冒了。太可怕了。
+    <br>为什么会这样子？
+    <br>为什么会这样子。
+    <br>为什么会这样子！
+    <br>果不其然，sass的设计者Hampton Catlin是一名程序员，同时也是一名同性恋的倡导者。又为我们猿类世界的多样性贡献了一份力量。2007年这哥们..这娘...不管怎么称呼了，就开始创建样式表语言(style sheet language)来扩充CSS。2008年一年，他都和他相互照应（大家别以为这是google翻译的，co-designer翻译成相互照应的设计者,相互关心，相互协作，相互的光芒都能照耀对方的钛合金猿眼)Natalie Weizenbaum致力于sass的开发。2011年sass编程手册正式发表。
+    <br>sass的出现不仅为css样式动态化做出了贡献。更为同性恋的权益保障迈出了结实的一步，也许不久的将来，加班加晚了，直接和身边的‘co-猿’基一夜，岂不意尽阑珊。窗帘，座椅，闪着绿灯的打印机，看着窗外的‘基也佳’我也陷入了沉思.......
+    </p>
+    <br>☺☺☺
+    <footer style="color: pink">www.intalesson.com</footer>
+
+  </blockquote>
+</div>
+
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+</body>
+</html>

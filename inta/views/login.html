@@ -6,12 +6,12 @@
    <script src="javascripts/jquery.min.js"></script>
    <script src="javascripts/bootstrap.min.js"></script>
    <style type="text/css">
-      body
+/*      body
       {
           position: fixed; 
           overflow-y: scroll;
           width: 100%;
-      }
+      }*/
 
      #acur:hover {
         cursor:pointer;
@@ -28,7 +28,7 @@
       }
       footer {
         width: 100%;
-        height: 400px;
+        height: 16vh;
         /*background-image: url();*/
         background-size: 100% 100%;
       }
@@ -49,13 +49,14 @@
   <!-- <div class="container text-center"> -->
   <!-- 第一部分 -->
 <!--   <div class="well well-lg text-center" style="background-color: #F5F5F5"><h1><h1><b style="color: #C71585">I</b><b style="color:#483D8B">N</b><b style="color: #FFD700">T</b><b style="color: #228B22">A</b></h1></h1> -->
-  <div class="well well-lg text-center" style="background-color: #F5F5F5">
+  <div class="well well-lg text-center" style="background-color: #F5F5F5;height: 25vh;">
   <div class="forImg">
   <a href="/"><img src="/images/default_1.png" class="imgTitle"></a>
   </div>
   <!-- <h1>登录</h1> -->
-  <p><em>inta is the built up of heart all for ease</em></p></div>
-  <div class="container text-center">
+  <p><em>君子性非异也，善假于物业。</em></p>
+  </div>
+  <div class="container text-center" style="height: 56vh;">
   <!-- 第二部分 -->
   <form method='post' action='/users'>
   <div class="row">
@@ -67,7 +68,7 @@
         <input name="num" type="hidden" value="<%= userNum %>">
       </div>
         <div class="caption" style="text-align: left;">
-          <p>注：学号是inta用户唯一的编号，用于登录账户。inta会根据此编号派发礼物，赠送专享特权、安排线下论坛等活动。学号大小由用户注册的先后顺序决定。</p>
+          <p>注：学号是inta用户唯一的编号。inta会根据此编号派发礼物，赠送专享特权、安排线下论坛等活动。学号大小由用户注册的先后顺序决定。</p>
         </div>
       </div>
     </div>
@@ -77,15 +78,15 @@
       <h4 class="ppp text-muted"><strong>--输入名称--</strong></h4><br><hr>
       <div class="input-group" >
         <span class="input-group-addon" style="background-color: #87CEEB; color: #FFFFFF">取个名儿</span>
-        <input id="msg" type="text" class="form-control" name="name" placeholder="名字" maxlength="5" pattern="[\u4e00-\u9fa5]{2,5}">
+        <input id="msg" type="text" class="form-control" name="name" placeholder="名字" maxlength="5" required="required" pattern=".[\u4e00-\u9fa5]{2,5}">
       </div>
       <div class="input-group" style="margin-top: 8px">
         <span class="input-group-addon" style="background-color: #008B8B; color: #FFFFFF">设个密码</span>
-        <input id="msg" type="password" class="form-control" name="pwd" placeholder="密码" maxlength="10">
+        <input id="msg" type="password" class="form-control" name="pwd" placeholder="密码" required="required" maxlength="10">
       </div>
       <div class="input-group" style="margin-top: 8px">
         <span class="input-group-addon" style="background-color: #2E8B57; color: #FFFFFF">留个电话</span>
-        <input id="msg" type="text" class="form-control" name="mobile" placeholder="手机" maxlength="11" pattern="0?(13|14|15|18)[0-9]{9}">
+        <input id="msg" type="text" class="form-control" name="mobile" placeholder="手机" maxlength="11" required="required" pattern="0?(13|14|15|18)[0-9]{9}">
       </div><br>
         <div class="caption" style="text-align: left;">
           <p>注：inta限定用户名由2到5个汉字组成，不能包含任何其他字符。登录或提问会显示用户名。电话是inta联系您的方式，inta承诺不推销，不泄露。</p>
@@ -153,7 +154,7 @@
   <footer class="container-fluid text-center" style="background-color: #d3d3d0;">
    <br>
    <div>
-   <h4 style="color:#A9A9A9;">w w w . i n t a . c o m</h4>
+   <h4 style="color:#A9A9A9;">w w w . i n t a l e s s o n . c o m</h4>
    </div>
 
    <div style="margin: 0;padding: 0;">
