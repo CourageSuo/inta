@@ -62,6 +62,7 @@
   }
 
   .type1 {
+    position: relative;
     width: 220px;
     height: 220px;
     background: white;
@@ -72,10 +73,14 @@
     align-items: center;
   }
 
+  .text1 {
+    position: absolute;
+  }
+
   .sponsor {
     position: relative;
     margin-left: 0px;
-    background-color: #483D8B;
+    background-color: #C71585;
     width: 160px;
     margin-left: -30px;
     padding: 6px;
@@ -86,7 +91,7 @@
   .contact {
     position: relative;
     margin-left: 0px;
-    background-color: #228B22;
+    background-color: #20B2AA;
     width: 160px;
     margin-left: -30px;
     padding: 6px;
@@ -97,12 +102,23 @@
   .thanks {
     position: relative;
     margin-left: 0px;
-    background-color: #228B22;
+    background-color: #DC143C;
     width: 160px;
     margin-left: -30px;
     padding: 6px;
     padding-right:25px;
     color: #ffffff;    
+  }
+
+  .case {
+    position: relative;
+    margin-left: 0px;
+    background-color: #191970;
+    width: 160px;
+    margin-left: -30px;
+    padding: 6px;
+    padding-right:25px;
+    color: #ffffff; 
   }
 
   .fb {
@@ -132,8 +148,11 @@
     <div class="col-sm-4">
 <!--   <img src="/images/Intro/user.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="220" height="220"> -->
   <div class="type1 margin text-center">
-    <p style="color: black; font-weight: 100; font-size: 36px">年轻 技术</p>
-    <p style="color: black; font-weight: 100; font-size: 36px">努力 踏实</p>
+    <!-- <p style="color: black; font-weight: 100; font-size: 36px">年轻 技术</p> -->
+    <!-- <p style="color: black; font-weight: 100; font-size: 36px">努力 踏实</p> -->
+    <!-- <p style="color:grey">INTA正在寻找年轻努力，踏实有干劲的合伙人。</p> -->
+    <img src="/images/Intro/interview.jpg" class="img-responsive img-circle margin">
+    <p class="text1">INTA正在寻找年轻努力，<br>踏实有干劲的伙伴。愿意在这<br>经济繁荣的时代追逐一把，不轻言放弃。看好并想尝试在线教育。具有稍好的英语和良好的沟通能力，关键是拥有永无止境的求知态度<br>和学习精神。</p>
   </div>
   <h3>欢迎加入</h3>
     </div>
@@ -141,8 +160,10 @@
    <div class="col-sm-4">
 <!--   <img src="/images/Intro/user.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="220" height="220"> -->
   <div class="type1 margin text-center">
-    <p style="color: black; font-weight: 100; font-size: 36px">博学 技艺</p>
-    <p style="color: black; font-weight: 100; font-size: 36px">志同 道和</p>
+<!--     <p style="color: black; font-weight: 100; font-size: 36px">博学 技艺</p>
+    <p style="color: black; font-weight: 100; font-size: 36px">志同 道和</p> -->
+    <img src="/images/Intro/intelligence.png" class="img-responsive img-circle margin">
+    <p class="text1" style="color: black;">INTA求带，请大神，大牛，<br>大哥协作提升网站运行效率，<br>支持多核负载均衡，减少下行响应带宽。拥有数据库安全加密和网站异常错误处理经验，深入理解ssh,ftp,https协议，掌握<br>linux系统。匠心精神。</p>
   </div>
   <h3>欢迎加入</h3>
     </div>
@@ -158,9 +179,9 @@
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-left">
 <a name="copyright"></a>
-  <h3 class="margin copyright text-right">课程版权</h3>
+  <h3 class="margin copyright text-right">网站说明</h3>
   <div class="jumbotron text-right" id="jumbo">
-  <p class="text-left">INTA视频其实也没什么版权，只要是对互联网相关技术感兴趣的同仁同事同学们都可以随时浏览，也可以下载，在地铁上，公交车上，慢慢的看。如果在浏览的过程中有什么不理解，可以直接在视频下方提问，INTA会及时给您解答。这些视频，都是自己录的，其实说是自己录的，不如说是知识的搬运工。相关内容都是借鉴的网站，书籍。诺有差池请您指点，见谅。</p>
+  <p class="text-left">INTA本着‘一切皆为易’的原则，讲解互联网前沿技术。一切知识点以最简单的例子，最简约的代码呈现最核心最本质的技术内容。每门课程分为视频讲解部分，技术笔记部分和技术历史部分（那年程序员）。所有课程都是由讲解人自己设计课程大纲，整理授课逻辑，着重于相关技术的思想本质和核心功能实现。避免通篇API文档的复制式讲解。致力于节约学习者的时间成本，同步互联网发展节奏。</p>
   <img src="/images/Intro/thank.png" style="display:inline; position: relative; top:-32px" alt="Bird" width="80" height="80">
   </div>
 </div>
@@ -168,37 +189,50 @@
 <!-- third Container -->
 <div class="container-fluid bg-2 text-left">
 <a name="declaration"></a>
-  <h3 class="margin declaration text-right">网站声明</h3>
+  <h3 class="margin declaration text-right">课程声明</h3>
+  <p>INTA课程均参照相关技术的官方文档，授课逻辑由INTA统一研发，无任何抄袭、复制。INTA讲解的技术与您的项目实现有任何出入，请您联系INTA，我们会马上核实问题，及时改正。感谢您的支持，祝您产品发展一路顺风。</p>
   <img src="/images/Intro/sower.jpg" style="width: 100%">
 </div>
 
 <!-- third Container -->
-<div class="container-fluid bg-2 text-left">
+<div class="container-fluid bg-2 text-center">
 <a name="sponsor"></a>
-  <h3 class="margin sponsor text-right">投资人</h3>
-  <!-- <button type="button" class="btn btn-default">Default</button> -->
-  <button type="button" class="btn btn-primary">Primary</button>&nbsp;&nbsp;&nbsp;
-  <button type="button" class="btn btn-success">Success</button>&nbsp;&nbsp;&nbsp;
-  <button type="button" class="btn btn-info">Info</button>&nbsp;&nbsp;&nbsp;
-  <button type="button" class="btn btn-warning">Warning</button>&nbsp;&nbsp;&nbsp;
-  <button type="button" class="btn btn-danger">Danger</button>&nbsp;&nbsp;&nbsp;
-<!--   <button type="button" class="btn btn-link">Link</button> -->
+  <h3 class="margin sponsor text-right">公众号</h3>
+ <h4>请扫描下列二维码关注INTA公众号</h4>
+  <img src="/images/Intro/gongzhonghao.jpg" style="width: 200px; height: 200px" >
 </div>
 
 
 <div class="container-fluid bg-2 text-center">
 <a name="contact"></a>
   <h3 class="margin contact text-right">联系方式</h3>
-  <h3>微信</h3>
-  <img src="/images/Intro/wechat.jpg" style="width: 200px; height: 200px" >
-  <h3>电话</h3>
-  <p>137176255555</p>
+  <div class="row text-center">
+    <div class="col-sm-4 text-center">
+       <h3>电话：13717625960</h3>
+    </div>
+  </div>
+  
+  <div class="row text-center">
+    <div class="col-sm-4 text-center">
+       <h3>微信</h3>
+       <img src="/images/Intro/wechat.jpg" style="width: 200px; height: 200px" >
+    </div>
+    <div class="col-sm-4 text-center">
+        <h3>QQ</h3>
+        <img src="/images/Intro/qq.jpg" style="width: 200px; height: 200px" >
+    </div>
+    <div class="col-sm-4 text-center">
+        <h3>微博</h3>
+        <img src="/images/Intro/weibo.jpg" style="width: 200px; height: 200px" >
+    </div>
+
+  </div>
 </div>
 
 <div class="container-fluid bg-2 text-center">
 <a name="thank"></a>
   <h3 class="margin thanks text-right">特别鸣谢</h3>
-    <div class="row text-center" style="background-color: black">
+    <div class="row text-center">
     
     <div class="col-sm-6 text-center">
     <br>
@@ -213,34 +247,17 @@
     </div>
 </div>
 
+<div class="container-fluid bg-2 text-center">
+<a name="legitster"></a>
+  <h3 class="margin case text-right">备案信息</h3>
+</div>
 <br>
 <br>
-
-
-
-<!-- Third Container (Grid) -->
-<!-- <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive " style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div> -->
-
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>INTA Theme Made By <a href="http://www.inta.com">suoyong</a></p>
-  <div style="margin: 0;padding: 0;">
+<footer class="container-fluid text-center">
+  <p>京ICP备17005313号</p>
+  <p>INTA Theme Made By <a href="http://www.intalesson.com">Suoyong</a></p>
+  <div style="background-color:#d3d3d0;width:100%;">
    <img src="/images/point.png" style="width: 100px;height: 40px;" />
   </div>
 </footer>
