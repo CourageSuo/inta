@@ -7,6 +7,9 @@ var cdb = require('../model/cMongo.js')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+
+  cdb.cMongoStatic("statistic")
+
   if(req.cookies.intaUserName === undefined) {
   	res.render('index.html',{
   		"flag": 0
@@ -30,6 +33,9 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/compedium/:name',function(req,res,next) {
+  //增加对每个课程点击量的统计
+  cdb.cMongoStatic(req.params.name)
+
   if(req.cookies.intaUserName === undefined) {
   	res.render(req.params.name + '.html',{
   		"flag": 0

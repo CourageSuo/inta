@@ -28,6 +28,15 @@ var replyForComment = function(ucid,courseName,userInfo,callback) {
 	})
 }
 
+
+var clickStatistics = function(courseName) {
+	var db = mongojs('INTA',['cliStat'])
+	db.cliStat.update({_id:courseName},{$inc:{"number":1}})
+	db.close()
+	
+}
+
 module.exports.cMongoIcon = connectMongoForIcon
 module.exports.cMongoComment = putMongoForComment
 module.exports.cMongoReply = replyForComment
+module.exports.cMongoStatic = clickStatistics
