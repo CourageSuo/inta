@@ -6,6 +6,286 @@
                                    "name" : "EJS模板使用"
                                  }]
                 },
+  "learn/1" : {
+                  "src" : "/video/learn/learn_1.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/2" : {
+                  "src" : "/video/learn/learn_2.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/3" : {
+                  "src" : "/video/learn/learn_3.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/4" : {
+                  "src" : "/video/learn/learn_4.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/5" : {
+                  "src" : "/video/learn/learn_5.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/6" : {
+                  "src" : "/video/learn/learn_6.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/7" : {
+                  "src" : "/video/learn/learn_7.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
+  "learn/8" : {
+                  "src" : "/video/learn/learn_8.mp4",
+                  "urlAndName" : [{
+                                   "url" : "/learn/1",
+                                   "name" : "出汗的牛"
+                                 },
+                                 {
+                                   "url" : "/learn/2",
+                                   "name" : "降维"
+                                 },
+                                 {
+                                   "url" : "/learn/3",
+                                   "name" : "质数式学习"
+                                 },
+                                 {
+                                   "url" : "/learn/4",
+                                   "name" : "谈英语"
+                                 },
+                                 {
+                                   "url" : "/learn/5",
+                                   "name" : "所见即所得"
+                                 },
+                                 {
+                                   "url" : "/learn/6",
+                                   "name" : "鲅鱼馅饺子"
+                                 },
+                                 {
+                                   "url" : "/learn/7",
+                                   "name" : "慢"
+                                 },
+                                 {
+                                   "url" : "/learn/8",
+                                   "name" : "一切皆为易"
+                                 }]
+                },
   "autolayout/1" : {
                      "src" : "/video/autolayout/AutoLayout_1.mp4",
                      "urlAndName" : [{

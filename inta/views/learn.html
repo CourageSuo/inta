@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>课程大纲</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .carousel-caption {
+      right:70%;
+      width: 160px;
+      color:grey;
+      text-shadow: none;
+      position: absolute;
+      top: 0;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      height: 100%;
+      }
+    </style>
+</head>
+<body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>课程大纲</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/learn/1">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>出汗的牛</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/1">第一节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/learn/2">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>降维</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/2">第二节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/learn/3">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>质数式学习</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/3">第三节</p></a>
+    </div>
+  </div><br>
+  <!-- 第二行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/learn/4">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>谈英语</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/4">第四节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/learn/5">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>所见即所得</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/5">第五节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/learn/6">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>鲅鱼馅饺子</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/6">第六节</p></a>
+    </div>
+  </div><br>
+  <!-- 第三行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/learn/7">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>慢</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/7">第七节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/learn/8">
+      <img src="/images/Course/learn.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>一切皆为易</h3>
+          </div> 
+      </a>
+      <a href="/course/learn/8">第八节</p></a>
+    </div>
+  </div>
+</div><br>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>学习方法概述</h2>
+  <p>子不授渔，安之鱼只乐也</p>
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第一节：出汗的牛</div>
+      <div class="panel-body">本节学习方法讲述：阅读尽可能多的资料，解决学习过程中的难点。不管是网络资料还是技术书籍对同一知识点的描述方式和讲授逻辑是不一样的，对照不同的资料有助于我们掌握学习中的难点。
+      <br>题目《出汗的牛》引用成语汗牛充栋的典故
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第二节：降维</div>
+      <div class="panel-body">本节学习方法讲述：把大脑中学习的知识写到纸上，然后放到或贴到眼睛能看到的任何地方，这样不仅能避免对知识的遗忘还能清晰的看到知识的逻辑。把大脑中知识的存放维度降低到一个二维的平面中。
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第三节：质数式学习</div>
+      <div class="panel-body">本节学习方法讲述：如何从一片代码中，找到对我们有用的知识点。也就是用‘删除运行看log’的方式，找到我们要学习的知识点。
+      <br>题目《质数式学习》表示，质数只有1和它本身两个因子，代表我们在学习的过程中，把知识点变为‘质数’。之所以有时我们看不懂资料中的代码，是因为它包含的知识点比较多，就像1365我们很难看出它是由多少个质数相乘。
+      </div>
+    </div>
+    <!-- 4 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第四节：谈英语</div>
+      <div class="panel-body">本节学习方法讲述：看懂英文文档的两个方法
+      <br>只理解，不翻译
+      <br>知道让步从句
+      </div>
+    </div>
+    <!-- 5 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第五节：所见即所得</div>
+      <div class="panel-body">本节学习方法讲述：看起来更是一种代码的学习习惯---不懂就打印。不管是变量，对象，属性还是方法。
+      </div>
+    </div>
+    <!-- 6 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第六节：鲅鱼馅饺子</div>
+      <div class="panel-body">本节学习方法讲述：知识的本质，我们可以通过
+      <br>所学知识历史
+      <br>所学知识谁用过，谁在用
+      <br>最小引用（看视频）
+      <br>以上3中方式掌握知识的本质，只要了解本质，由此发散出的相关内容就容易学习了。
+      </div>
+    </div>
+    <!-- 7 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第七节：慢</div>
+      <div class="panel-body">其实本节就想告诉初学者，在学习过程中的有些知识是很难在短时间内掌握的，不要急躁，继续学习，反复理解。因为学习是一个‘慢’的过程。
+      </div>
+    </div>
+    <!-- 8 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第八节：一切皆为易</div>
+      <div class="panel-body">本节讲述INTA视频教学核心原则：一切皆为易。
+      <br>一切知识点以最简单的例子，最简约的代码呈现最核心最本质的技术内容，让学习变得轻松，简单。</div>
+    </div>
+
+
+  </div>
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p style="color:#708090">山一程,水一程,夜深千帐灯. 风一更,雪一更,故园无此声. </p>
+  <blockquote>
+    <p>这篇不能叫‘那年程序员’了，应该叫‘这年程序员’。因为大家通过视频也能看出来，这些课程都根据自己的学习经验和授课经验自己录的。每一种学习方法都是我自己在学习新知识，新技能时总结出比较实用比较接地气的技巧。当我是程序员时，我最早接触的代码是C/C++,面对黑乎乎的linux窗口，敲击数不清的命令，然后链接，编译，运行，使用gdb调试，好不麻烦。随着移动端的发展，开始编写Objective-C/swift, 那种五彩斑斓的代码样式，语义化的方法名称，强大的集成开发工具，也算是让程序员坐上了筋斗云。然后互联网发展如火如荼，javascript又首当其冲了，不仅简单还跨平台了，而且各种框架还层出不穷，这次程序员到成了‘甲方’。而视频中讲解的学习方法正是在这些技术不断的学习中总结出来的，为初入猿界门槛的人，增加一种参考，多一盏明灯。
+    </p>
+
+    <footer>INTA视频为免费课程，摄影灯光和后期剪辑属个人制作，剪辑阴影，请大家见谅。</footer>
+  </blockquote>
+</div>
+
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+  <!-- 登录注册model -->
+  <% include ./partials/modal.html %>
+
+</body>
+</html>
