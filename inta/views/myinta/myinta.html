@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>网站浏览统计</title>
+</head>
+<body>
+	<div id='one'></div>
+	<script type="text/javascript">
+	    var arr = <%- JSON.stringify(allNumber) %>
+		function makeUL(array) {
+            // Create the list element:
+            var list = document.createElement('ul');
+        
+            for(var i = 0; i < array.length; i++) {
+                // Create the list item:
+                var item = document.createElement('li');
+        
+                // Set its contents:
+                item.appendChild(document.createTextNode(array[i]._id + '  访问量为： ' + array[i].number));
+        
+                // Add it to the list:
+                list.appendChild(item);
+           }
+
+            // Finally, return the constructed list:
+            return list;
+        }
+        document.getElementById('one').appendChild(makeUL(arr));
+	</script>
+</body>
+</html>

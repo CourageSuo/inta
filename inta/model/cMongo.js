@@ -36,7 +36,15 @@ var clickStatistics = function(courseName) {
 	
 }
 
+var myInta = function(callback){
+	var db = mongojs('INTA')
+	db.cliStat.find(function(err,doc){
+		callback(err,doc,db)
+	})
+}
+
 module.exports.cMongoIcon = connectMongoForIcon
 module.exports.cMongoComment = putMongoForComment
 module.exports.cMongoReply = replyForComment
 module.exports.cMongoStatic = clickStatistics
+module.exports.myInta = myInta

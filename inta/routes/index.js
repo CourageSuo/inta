@@ -179,6 +179,18 @@ router.get('/introduction',function(req,res,next){
 
 })
 
+// 统计用户即网站浏览次数
+router.get('/myinta', function(req, res, next) {
+
+  cdb.myInta(function(err,doc,db){
+    res.render('./myinta/myinta.html',{
+      "allNumber":doc
+    })
+    db.close()
+  })
+  
+})
+
 
 
 module.exports = router;
