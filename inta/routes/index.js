@@ -7,27 +7,62 @@ var cdb = require('../model/cMongo.js')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-
-  cdb.cMongoStatic("statistic")
+  cdb.cMongoStatic("statistic")//这个就是错的，因为在数据cMongo中就没用这个参数
+  cdb.cornerConnect("cliStat",function(err,doc,db){
 
   if(req.cookies.intaUserName === undefined) {
-  	res.render('index.html',{
-  		"flag": 0
-  	});
+    // console.log(click)
+    res.render('index.html',{
+      "flag": 0,
+      "gitc": doc[1].number,
+      "gitl": doc[1].like,
+      "learnc": doc[9].number,
+      "learnl": doc[9].like,
+      "nodec": doc[3].number,
+      "nodel": doc[3].like,
+      "npmc": doc[2].number,
+      "npml": doc[2].like,
+      "expressc": doc[4].number,
+      "expressl": doc[4].like,
+      "gruntc": doc[6].number,
+      "gruntl": doc[6].like,
+      "sassc": doc[5].number,
+      "sassl": doc[5].like,
+      "autolayoutc": doc[7].number,
+      "autolayoutl": doc[7].like
+    });
   } else {
-  	cdb.cMongoIcon(req.cookies.intaUserName,function(err,db,icon,uid){
-  		// var iconUrl = '/uploads/' + icon
-  		var iconUrl = icon === 'default.png' ? '/images/' + icon : '/uploads/' + icon 
-  		res.render('index.html',{
-  			"flag": 1,
-  			"userN": req.cookies.intaUserName,
-  			"userIcon" : iconUrl,
-        "userNo" : uid
-  		})
-  		db.close()
-  	})
+    cdb.cMongoIcon(req.cookies.intaUserName,function(err,db,icon,uid){
+      // var iconUrl = '/uploads/' + icon
+      var iconUrl = icon === 'default.png' ? '/images/' + icon : '/uploads/' + icon 
+      res.render('index.html',{
+        "flag": 1,
+        "userN": req.cookies.intaUserName,
+        "userIcon" : iconUrl,
+        "userNo" : uid,
+      "gitc": doc[1].number,
+      "gitl": doc[1].like,
+      "learnc": doc[2].number,
+      "learnl": doc[2].like,
+      "nodec": doc[3].number,
+      "nodel": doc[3].like,
+      "npmc": doc[4].number,
+      "npml": doc[4].like,
+      "expressc": doc[5].number,
+      "expressl": doc[5].like,
+      "gruntc": doc[6].number,
+      "gruntl": doc[6].like,
+      "sassc": doc[7].number,
+      "sassl": doc[7].like,
+      "autolayoutc": doc[8].number,
+      "autolayoutl": doc[8].like
+      })
+      // db.close()
+    })
 
   }
+      db.close()
+  })
   
 });
 
@@ -179,8 +214,22 @@ router.get('/introduction',function(req,res,next){
 
 })
 
+//点赞的ajax请求
+router.get('/like',function(req,res){
+    cdb.cornerInsert(req.query.oneLike)
+    cdb.cornerConnect("cliStat",function(err,doc,db){
+      var result = doc.filter(function( obj ) {
+                       return obj._id == req.query.oneLike
+                   })
+      console.log(result)
+      res.send(String(result[0].like))
+      db.close()
+    })
+})
+
 // 统计用户即网站浏览次数
 router.get('/myinta', function(req, res, next) {
+
 
   cdb.myInta(function(err,doc,db){
     res.render('./myinta/myinta.html',{
@@ -190,6 +239,14 @@ router.get('/myinta', function(req, res, next) {
   })
   
 })
+
+//等待发表的网页
+router.get('/intabaidu',function(req,res,next) {
+  res.render('./waiting/waitke.html')
+})
+
+
+
 
 
 

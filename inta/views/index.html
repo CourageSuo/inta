@@ -35,6 +35,9 @@
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
     }
+    .jumbotron {
+      position: relative;
+    }
     </style>
 </head>
 <body>
@@ -68,6 +71,7 @@
   </div>
   <!-- 第三块区域就是主要显示的内容栏 -->
   <!-- 3.3.1 -->
+
   <a name="git"></a>
   <div class="container">
   <div class="jumbotron">
@@ -83,6 +87,44 @@
         <p><small>Git是一个开源的版本管理系统，本套视频讲解如何使用git进行版本管理及其github的使用。</small></p>
       </div>
     </div>
+
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="gitc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="gitc1" height="24" width="24">&nbsp;&nbsp;<%= gitc %></div>
+        <div class="pull-right" style="color:gray"><small class="gitc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="gitc2" height="22" width="22">&nbsp;&nbsp;<span class="gitlnum"><%= gitl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var i=0
+          $(".gitc2").click(function(){
+            if(i<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"git"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".gitlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".gitc2").attr('src','images/corner/like1.png')
+            }
+               i++           
+          })
+        </script>
+
+        <div class="pull-right"><small class="gitc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="gitc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="gitc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191184#tuin=2847ea58"><img class="gitc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".gitc1").hover(function(){ $(".gitc1a").css("visibility","visible") },function(){ $(".gitc1a").css("visibility","hidden") })
+          $(".gitc2").hover(function(){ $(".gitc2a").css("visibility","visible") },function(){ $(".gitc2a").css("visibility","hidden") })
+          $(".gitc3").hover(function(){ $(".gitc3a").css("visibility","visible") },function(){ $(".gitc3a").css("visibility","hidden") })
+          $(".gitc4").hover(function(){ $(".gitc4a").css("visibility","visible") },function(){ $(".gitc4a").css("visibility","hidden") })
+        </script>
+    </div>
+    
 
   </div>
   </div>
@@ -104,6 +146,42 @@
       </div>
     </div>
 
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="learnc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="learnc1" height="24" width="24">&nbsp;&nbsp;<%= learnc %></div>
+        <div class="pull-right" style="color:gray"><small class="learnc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="learnc2" height="22" width="22">&nbsp;&nbsp;<span class="learnlnum"><%= learnl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <script type="text/javascript">
+          var j=0
+          $(".learnc2").click(function(){
+            if(j<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"learn"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".learnlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".learnc2").attr('src','images/corner/like1.png')
+            }
+               j++           
+          })
+        </script>
+
+        <div class="pull-right"><small class="learnc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="learnc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="learnc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191832#tuin=2847ea58"><img class="learnc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".learnc1").hover(function(){ $(".learnc1a").css("visibility","visible") },function(){ $(".learnc1a").css("visibility","hidden") })
+          $(".learnc2").hover(function(){ $(".learnc2a").css("visibility","visible") },function(){ $(".learnc2a").css("visibility","hidden") })
+          $(".learnc3").hover(function(){ $(".learnc3a").css("visibility","visible") },function(){ $(".learnc3a").css("visibility","hidden") })
+          $(".learnc4").hover(function(){ $(".learnc4a").css("visibility","visible") },function(){ $(".learnc4a").css("visibility","hidden") })
+        </script>
+    </div>
+
   </div>
   </div>
   <!-- 3.1 -->
@@ -121,6 +199,42 @@
         <a href="/compedium/node"><h3 class="media-heading">Node课程</h3></a>
         <p><small>本套视频讲解Node.js的基本知识，包括javascript回调的概念，node的运行机制和事件驱动。以及node中常用的核心模块。</small></p>
       </div>
+    </div>
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="nodec1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="nodec1" height="24" width="24">&nbsp;&nbsp;<%= nodec %></div>
+        <div class="pull-right" style="color:gray"><small class="nodec2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="nodec2" height="22" width="22">&nbsp;&nbsp;<span class="nodelnum"><%= nodel %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var k=0
+          $(".nodec2").click(function(){
+            if(k<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"node"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".nodelnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".nodec2").attr('src','images/corner/like1.png')
+            }
+               k++           
+          })
+        </script>
+
+        <div class="pull-right"><small class="nodec3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="nodec3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="nodec4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191543#tuin=2847ea58"><img class="nodec4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".nodec1").hover(function(){ $(".nodec1a").css("visibility","visible") },function(){ $(".nodec1a").css("visibility","hidden") })
+          $(".nodec2").hover(function(){ $(".nodec2a").css("visibility","visible") },function(){ $(".nodec2a").css("visibility","hidden") })
+          $(".nodec3").hover(function(){ $(".nodec3a").css("visibility","visible") },function(){ $(".nodec3a").css("visibility","hidden") })
+          $(".nodec4").hover(function(){ $(".nodec4a").css("visibility","visible") },function(){ $(".nodec4a").css("visibility","hidden") })
+        </script>
     </div>
 
   </div>
@@ -142,6 +256,43 @@
       </div>
     </div>
 
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="npmc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="npmc1" height="24" width="24">&nbsp;&nbsp;<%= npmc %></div>
+        <div class="pull-right" style="color:gray"><small class="npmc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="npmc2" height="22" width="22">&nbsp;&nbsp;<span class="npmlnum"><%= npml %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var l=0
+          $(".npmc2").click(function(){
+            if(l<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"npm"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".npmlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".npmc2").attr('src','images/corner/like1.png')
+            }
+               l++           
+          })
+        </script>
+
+        <div class="pull-right"><small class="npmc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="npmc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="npmc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190987#tuin=2847ea58"><img class="npmc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".npmc1").hover(function(){ $(".npmc1a").css("visibility","visible") },function(){ $(".npmc1a").css("visibility","hidden") })
+          $(".npmc2").hover(function(){ $(".npmc2a").css("visibility","visible") },function(){ $(".npmc2a").css("visibility","hidden") })
+          $(".npmc3").hover(function(){ $(".npmc3a").css("visibility","visible") },function(){ $(".npmc3a").css("visibility","hidden") })
+          $(".npmc4").hover(function(){ $(".npmc4a").css("visibility","visible") },function(){ $(".npmc4a").css("visibility","hidden") })
+        </script>
+    </div>
+
   </div>
   </div>
     <!-- 3.3 -->
@@ -161,27 +312,45 @@
       </div>
     </div>
 
-  </div>
-  </div>
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="expressc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="expressc1" height="24" width="24">&nbsp;&nbsp;<%= expressc %></div>
+        <div class="pull-right" style="color:gray"><small class="expressc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="expressc2" height="22" width="22">&nbsp;&nbsp;<span class="expresslnum"><%= expressl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-  <!-- 3.6 敬请期待-->
-<!--   <div class="container">
-  <div class="jumbotron">
+        <script type="text/javascript">
+          var m=0
+          $(".expressc2").click(function(){
+            if(m<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"express"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".expresslnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".expressc2").attr('src','images/corner/like1.png')
+            }
+               m++           
+          })
+        </script>
 
-    <div class="media">
-      <div class="media-left">
-      <a href="/compedium/ejs">
-        <img src="/images/ejs.png" class="media-object" style="width:200px;">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/ejs"><h3 class="media-heading">EJS课程</h3></a>
-        <p><small></small></p>
-      </div>
+        <div class="pull-right"><small class="expressc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="expressc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="expressc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191538#tuin=2847ea58"><img class="expressc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".expressc1").hover(function(){ $(".expressc1a").css("visibility","visible") },function(){ $(".expressc1a").css("visibility","hidden") })
+          $(".expressc2").hover(function(){ $(".expressc2a").css("visibility","visible") },function(){ $(".expressc2a").css("visibility","hidden") })
+          $(".expressc3").hover(function(){ $(".expressc3a").css("visibility","visible") },function(){ $(".expressc3a").css("visibility","hidden") })
+          $(".expressc4").hover(function(){ $(".expressc4a").css("visibility","visible") },function(){ $(".expressc4a").css("visibility","hidden") })
+        </script>
     </div>
 
   </div>
-  </div> -->
+  </div>
 
     <!-- 3.3.0 -->
   <a name="grunt"></a>
@@ -200,6 +369,42 @@
           grunt是javascript项目的任务优化器。它可以帮助我们完成javascript项目中的重复工作。也可以把项目中的好多任务进行自动化操作。grunt有庞大的社区可以帮助我们便捷，高效，快速的构建javascript项目。
         </small></p>
       </div>
+    </div>
+
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="gruntc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="gruntc1" height="24" width="24">&nbsp;&nbsp;<%= gruntc %></div>
+        <div class="pull-right" style="color:gray"><small class="gruntc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="gruntc2" height="22" width="22">&nbsp;&nbsp;<span class="gruntlnum"><%= gruntl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var n=0
+          $(".gruntc2").click(function(){
+            if(n<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"grunt"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".gruntlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".gruntc2").attr('src','images/corner/like1.png')
+            }
+               n++           
+          })
+        </script>
+        <div class="pull-right"><small class="gruntc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="gruntc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="gruntc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191804#tuin=2847ea58"><img class="gruntc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".gruntc1").hover(function(){ $(".gruntc1a").css("visibility","visible") },function(){ $(".gruntc1a").css("visibility","hidden") })
+          $(".gruntc2").hover(function(){ $(".gruntc2a").css("visibility","visible") },function(){ $(".gruntc2a").css("visibility","hidden") })
+          $(".gruntc3").hover(function(){ $(".gruntc3a").css("visibility","visible") },function(){ $(".gruntc3a").css("visibility","hidden") })
+          $(".gruntc4").hover(function(){ $(".gruntc4a").css("visibility","visible") },function(){ $(".gruntc4a").css("visibility","hidden") })
+        </script>
     </div>
 
   </div>
@@ -222,6 +427,42 @@
       </div>
     </div>
 
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="sassc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="sassc1" height="24" width="24">&nbsp;&nbsp;<%= sassc %></div>
+        <div class="pull-right" style="color:gray"><small class="sassc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="sassc2" height="22" width="22">&nbsp;&nbsp;<span class="sasslnum"><%= sassl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var o=0
+          $(".sassc2").click(function(){
+            if(o<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"sass"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".sasslnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".sassc2").attr('src','images/corner/like1.png')
+            }
+               o++           
+          })
+        </script>
+        <div class="pull-right"><small class="sassc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="sassc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="sassc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191186#tuin=2847ea58"><img class="sassc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".sassc1").hover(function(){ $(".sassc1a").css("visibility","visible") },function(){ $(".sassc1a").css("visibility","hidden") })
+          $(".sassc2").hover(function(){ $(".sassc2a").css("visibility","visible") },function(){ $(".sassc2a").css("visibility","hidden") })
+          $(".sassc3").hover(function(){ $(".sassc3a").css("visibility","visible") },function(){ $(".sassc3a").css("visibility","hidden") })
+          $(".sassc4").hover(function(){ $(".sassc4a").css("visibility","visible") },function(){ $(".sassc4a").css("visibility","hidden") })
+        </script>
+    </div>
+
   </div>
   </div>
 
@@ -242,26 +483,44 @@
       </div>
     </div>
 
-  </div>
-  </div>
-  <!-- 3.5 -->
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="autolayoutc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="autolayoutc1" height="24" width="24">&nbsp;&nbsp;<%= autolayoutc %></div>
+        <div class="pull-right" style="color:gray"><small class="autolayoutc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="autolayoutc2" height="22" width="22">&nbsp;&nbsp;<span class="autolayoutlnum"><%= autolayoutl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-<!-- 3.7 敬请期待-->
-<!--     <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <img src="/images/backbone.jpg" class="media-object" style="width:200px">
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading">INTA学习方法</h3>
-        <p><small>这里说的课程可不是如何预防03年的非典，而是如何使用sass把js中的js转化成为你自己真正的css，让你更懂得如何使用前端，你就是前端的王者</small></p>
-      </div>
+        <script type="text/javascript">
+          var p=0
+          $(".autolayoutc2").click(function(){
+            if(p<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"autolayout"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".autolayoutlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".autolayoutc2").attr('src','images/corner/like1.png')
+            }
+               p++           
+          })
+        </script>
+        <div class="pull-right"><small class="autolayoutc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="autolayoutc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="autolayoutc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190995#tuin=2847ea58"><img class="autolayoutc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".autolayoutc1").hover(function(){ $(".autolayoutc1a").css("visibility","visible") },function(){ $(".autolayoutc1a").css("visibility","hidden") })
+          $(".autolayoutc2").hover(function(){ $(".autolayoutc2a").css("visibility","visible") },function(){ $(".autolayoutc2a").css("visibility","hidden") })
+          $(".autolayoutc3").hover(function(){ $(".autolayoutc3a").css("visibility","visible") },function(){ $(".autolayoutc3a").css("visibility","hidden") })
+          $(".autolayoutc4").hover(function(){ $(".autolayoutc4a").css("visibility","visible") },function(){ $(".autolayoutc4a").css("visibility","hidden") })
+        </script>
     </div>
 
   </div>
-  </div> -->
+  </div>
 
   <!-- 3.8 -->
   <a name="sublime"></a>

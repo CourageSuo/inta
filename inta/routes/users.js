@@ -67,7 +67,7 @@ router.post('/',function(req,res,next){
 	// var iconname = arr.length === 0 ? arr : arr[arr.length - 1] 
 	var iconname = null
 	var pa = null
-	console.log(arr[0] + " and " + arr[1])
+	// console.log(arr[0] + " and " + arr[1])
 	if (arr[1] === 'default.png') {
 		iconname = arr[1]
 		pa = "/images/"
@@ -77,26 +77,48 @@ router.post('/',function(req,res,next){
 	}
 	// var iconname = arr[arr.length-1]
 	//update to database
-	var db = mongojs('INTA', ['userNum'])
+	var db = mongojs('INTA')
 	var update = {$set: {userName:req.body.name,userIcon:iconname,usePwd:req.body.pwd,userMobile:req.body.mobile}}
 	var query = {_id:parseInt(req.body.num)}//把字符型转化为数值类型
-	db.userNum.update(query,update,function(err){
-		if(err) throw err
-			db.close()
+	db.userNum.update(query,update)
+	// db.userNum.update(query,update,function(err){
+	// 	if(err) throw err
+	// 		db.close()
 		//设置cookie
 		res.cookie('intaUserName',req.body.name,{maxAge:3600000*24*7})
 		// res.cookie('intaUserNum',req.body.,{maxAge:3600000*24*7})
 		iconname = pa + iconname
-		console.log(iconname)
-		res.render('index.html',{
+		// console.log(iconname)
+		db.cliStat.find(function(err,doc){
+			console.log(err)
+			console.log(doc)
+			res.render('index.html',{
 			"flag"  : 1,
 			"userN" : req.body.name,
 			"userIcon" : iconname,
 			// 2016-12-19 +
-		    "userNo" : parseInt(req.body.num)
+		    "userNo" : parseInt(req.body.num),
+            "gitc": doc[1].number,
+            "gitl": doc[1].like,
+            "learnc": doc[9].number,
+            "learnl": doc[9].like,
+            "nodec": doc[3].number,
+            "nodel": doc[3].like,
+            "npmc": doc[2].number,
+            "npml": doc[2].like,
+            "expressc": doc[4].number,
+            "expressl": doc[4].like,
+            "gruntc": doc[6].number,
+            "gruntl": doc[6].like,
+            "sassc": doc[5].number,
+            "sassl": doc[5].like,
+            "autolayoutc": doc[7].number,
+            "autolayoutl": doc[7].like
+		})
+
 		})
 		db.close()
-	})
+	// })
 	}
 })
 

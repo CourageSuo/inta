@@ -11,11 +11,62 @@
   <script type="text/javascript">
      var cc = <%- courseContent %>
      var cocm = <%- courseComment %>
-     console.log(cocm)
+     // console.log(cc)
      var flag = <%= flag %>
   </script>
+  <style type="text/css">
+    .prompt {
+      position: absolute;
+      background-color: red;
+      color:white;
+      filter:alpha(opacity=90); 
+      -moz-opacity:0.9; 
+      opacity:0.9;
+      font-weight: lighter;
+      height: 60px;
+      z-index:99;
+      top:-60px;
+      right: 0;
+      left: 0;
+    }
+    .cross {
+      position: relative;
+      color: gray;
+      float: right;
+      top: -20px;
+
+    }
+    .word {
+      /*position: relative;*/
+      margin-left:10px;
+      margin-right: 10px;
+      margin-top: 10px;
+
+    }
+    .more {
+      text-decoration: underline;
+      color:white;
+    }
+  </style>
 </head>
 <body>
+
+<div class="prompt">
+  <!-- 红底白字半透明有详情点叉取消 -->
+  <p class="word">INTA通知: 在您的支持下，INTA课程在线视频浏览量逐渐增大。但由于云服务器网络带宽有限，观看视频人数过多时，相关课程会出现卡顿现象。您可以等待缓存继续观看或点击主页课程右下方腾讯课堂和百度传课流畅观看视频，其课程收入用于增加网站服务器带宽，为您提供更好的在线学习服务。<span class="more"><a href="/introduction#declaration" style="text-decoration: none;color: white;">云服务器带宽详情</a></span></p>
+  <div class="cross"><a style="cursor: default;text-decoration: none;">&#10005;</a></div>
+</div>
+
+<script type="text/javascript">
+    $('.prompt').delay( 1400 ).animate({
+    'margin-top' : "+=60px" //moves left
+    },1000);
+    $('.cross').click(function(){
+      $('.prompt').animate({
+        'margin-top' : "-=60px"
+      },600)
+    })
+</script>
 
   <!-- 第一块区域导航栏 -->
 <nav class="navbar navbar-default">
@@ -80,11 +131,12 @@
 <div class="container">
   <h2><%= showCouserName %>课程</h2>
   <blockquote>
-  <p id="pa"></p>
+  <p id="pa" style="float: left"></p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" class="ap1"><img src="/images/corner/qq.png" height="24" width="24" ></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/intabaidu" class="ap2"><img src="/images/corner/baidu.png" height="24" width="24"></a>
   </blockquote>
   <script type="text/javascript">
     var cn = cc.urlAndName
     $("#pa").text(cn[<%= nnn %> - 1].name)
+    $(".ap1").attr("href", cc.qq)
   </script>
   <hr>
 

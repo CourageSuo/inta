@@ -10,7 +10,6 @@ var connectMongoForIcon = function (name,callback) {
     })
 }
 
-
 var putMongoForComment = function(courseName,userInfo,callback) {
 	var db = mongojs('INTA',['course'])
 	db.course.update({_id:courseName},{$addToSet:{courseComment:userInfo}},function(err){
@@ -28,7 +27,6 @@ var replyForComment = function(ucid,courseName,userInfo,callback) {
 	})
 }
 
-
 var clickStatistics = function(courseName) {
 	var db = mongojs('INTA',['cliStat'])
 	db.cliStat.update({_id:courseName},{$inc:{"number":1}})
@@ -43,8 +41,27 @@ var myInta = function(callback){
 	})
 }
 
+var cornerConnect = function(courseName,callback) {
+	var db = mongojs('INTA')
+	db.collection(courseName).find(function(err,doc){
+		callback(err,doc,db)
+	})
+}
+
+var cornerInsert = function(courseName){
+	var db = mongojs('INTA')
+	db.cliStat.update({_id:courseName},{$inc:{"like":1}})
+	db.close()
+
+}
+
 module.exports.cMongoIcon = connectMongoForIcon
 module.exports.cMongoComment = putMongoForComment
 module.exports.cMongoReply = replyForComment
 module.exports.cMongoStatic = clickStatistics
 module.exports.myInta = myInta
+module.exports.cornerConnect = cornerConnect
+module.exports.cornerInsert = cornerInsert
+
+
+
