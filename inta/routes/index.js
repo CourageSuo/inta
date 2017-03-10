@@ -42,20 +42,20 @@ router.get('/', function(req, res, next) {
         "userNo" : uid,
       "gitc": doc[1].number,
       "gitl": doc[1].like,
-      "learnc": doc[2].number,
-      "learnl": doc[2].like,
+      "learnc": doc[9].number,
+      "learnl": doc[9].like,
       "nodec": doc[3].number,
       "nodel": doc[3].like,
-      "npmc": doc[4].number,
-      "npml": doc[4].like,
-      "expressc": doc[5].number,
-      "expressl": doc[5].like,
+      "npmc": doc[2].number,
+      "npml": doc[2].like,
+      "expressc": doc[4].number,
+      "expressl": doc[4].like,
       "gruntc": doc[6].number,
       "gruntl": doc[6].like,
-      "sassc": doc[7].number,
-      "sassl": doc[7].like,
-      "autolayoutc": doc[8].number,
-      "autolayoutl": doc[8].like
+      "sassc": doc[5].number,
+      "sassl": doc[5].like,
+      "autolayoutc": doc[7].number,
+      "autolayoutl": doc[7].like
       })
       // db.close()
     })
