@@ -105,11 +105,18 @@
 <div class="row">
   <div class="col-sm-8">
     <div align="center" class="embed-responsive embed-responsive-16by9">
-    <video autoplay loop controls class="embed-responsive-item">
-        <source class='src' type="video/mp4">
+    <video autoplay loop controls class="embed-responsive-item" id="videoPlayer">
+        <source id='mp4Source' type="video/mp4" >
         <script type="text/javascript">
           //给src增加图片地址
-          $(".src").attr("src", cc.src);
+          //2017.3.10 for the first business on line that don't play video
+          var player = document.getElementById('videoPlayer');
+          var mp4Vid = document.getElementById('mp4Source');
+          player.pause();
+          mp4Vid.src = cc.src;
+          player.load();
+          player.play();
+          // $("#src").attr("src", cc.src);
         </script>
     </video>
 </div>
