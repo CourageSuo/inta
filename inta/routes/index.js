@@ -215,7 +215,8 @@ router.get('/introduction',function(req,res,next){
 })
 
 //点赞的ajax请求
-router.get('/like',function(req,res){
+router.get('/like',function(req,res,next){
+    if(req.headers.accept.split(',')[0] === 'application/json'){
     cdb.cornerInsert(req.query.oneLike)
     cdb.cornerConnect("cliStat",function(err,doc,db){
       var result = doc.filter(function( obj ) {
@@ -225,6 +226,9 @@ router.get('/like',function(req,res){
       res.send(String(result[0].like))
       db.close()
     })
+  } else {
+    next()
+  }
 })
 
 // 统计用户即网站浏览次数
