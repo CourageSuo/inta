@@ -6,6 +6,2030 @@
                                    "name" : "EJS模板使用"
                                  }]
                 },
+  "sublime/1" : {
+                  "src" : "/video/sublime/sublime_1.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/2" : {
+                  "src" : "/video/sublime/sublime_2.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/3" : {
+                  "src" : "/video/sublime/sublime_3.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/4" : {
+                  "src" : "/video/sublime/sublime_4.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/5" : {
+                  "src" : "/video/sublime/sublime_5.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/6" : {
+                  "src" : "/video/sublime/sublime_6.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/7" : {
+                  "src" : "/video/sublime/sublime_7.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/8" : {
+                  "src" : "/video/sublime/sublime_8.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/9" : {
+                  "src" : "/video/sublime/sublime_9.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/10" : {
+                  "src" : "/video/sublime/sublime_10.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/11" : {
+                  "src" : "/video/sublime/sublime_11.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/12" : {
+                  "src" : "/video/sublime/sublime_12.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/13" : {
+                  "src" : "/video/sublime/sublime_13.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/14" : {
+                  "src" : "/video/sublime/sublime_14.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/15" : {
+                  "src" : "/video/sublime/sublime_15.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/16" : {
+                  "src" : "/video/sublime/sublime_16.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/17" : {
+                  "src" : "/video/sublime/sublime_17.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/18" : {
+                  "src" : "/video/sublime/sublime_18.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/19" : {
+                  "src" : "/video/sublime/sublime_19.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/20" : {
+                  "src" : "/video/sublime/sublime_20.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/21" : {
+                  "src" : "/video/sublime/sublime_21.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
+  "sublime/22" : {
+                  "src" : "/video/sublime/sublime_22.mp4",
+                  "qq" : "https://ke.qq.com/course/194304#tuin=2847ea58",
+                  "urlAndName" : [{
+                                    "url" : "/sublime/1",
+                                    "name" : "常规操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/2",
+                                    "name" : "窗口 视图 主题"
+                                  },
+                                  {
+                                    "url" : "/sublime/3",
+                                    "name" : "行操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/4",
+                                    "name" : "光标操作"
+                                  },
+                                  {
+                                    "url" : "/sublime/5",
+                                    "name" : "缩进"
+                                  },
+                                  {
+                                    "url" : "/sublime/6",
+                                    "name" : "查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/7",
+                                    "name" : "究极查找"
+                                  },
+                                  {
+                                    "url" : "/sublime/8",
+                                    "name" : "控制板"
+                                  },
+                                  {
+                                    "url" : "/sublime/9",
+                                    "name" : "右键打开"
+                                  },
+                                  {
+                                    "url" : "/sublime/10",
+                                    "name" : "快捷键绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/11",
+                                    "name" : "鼠标绑定"
+                                  },
+                                  {
+                                    "url" : "/sublime/12",
+                                    "name" : "宏"
+                                  },
+                                  {
+                                    "url" : "/sublime/13",
+                                    "name" : "Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/14",
+                                    "name" : "创建Snippet"
+                                  },
+                                  {
+                                    "url" : "/sublime/15",
+                                    "name" : "安装插件"
+                                  },
+                                  {
+                                    "url" : "/sublime/16",
+                                    "name" : "插件推荐"
+                                  },
+                                  {
+                                    "url" : "/sublime/17",
+                                    "name" : "创建插件导引"
+                                  },
+                                  {
+                                    "url" : "/sublime/18",
+                                    "name" : "简单认识PYTHON"
+                                  },
+                                  {
+                                    "url" : "/sublime/19",
+                                    "name" : "Sublime API (一)"
+                                  },
+                                  {
+                                    "url" : "/sublime/20",
+                                    "name" : "Sublime API (二)"
+                                  },
+                                  {
+                                    "url" : "/sublime/21",
+                                    "name" : "添加菜单按钮"
+                                  },
+                                  {
+                                    "url" : "/sublime/22",
+                                    "name" : "发布插件"
+                                  }]
+                },
   "learn/1" : {
                   "src" : "/video/learn/learn_1.mp4",
                   "qq" : "https://ke.qq.com/course/191832#tuin=2847ea58",

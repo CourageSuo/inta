@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-		<title>INTA课程主页</title>
-    <meta name="keywords" content="INTA,INTA课程,intalesson,grunt视频教学,git视频教学,autolayout视频教学,npm视频教学,sublime视频教学,视频教学,nodejs视频教学,node视频教学" />
-    <meta name="description" content="INTA本着‘一切皆为易’的原则，讲解互联网前沿技术。一切知识点以最简单的例子，最简约的代码呈现最核心最本质的技术内容。每门课程分为视频讲解部分，技术笔记部分和技术历史部分（那年程序员）。所有课程都是由讲解人自己设计课程大纲，整理授课逻辑，着重于相关技术的思想本质和核心功能实现。避免通篇API文档的复制式讲解。致力于节约学习者的时间成本，同步互联网发展节奏。" />
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-		<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
-		<script src="javascripts/jquery.min.js"></script>
-		<script src="javascripts/bootstrap.min.js"></script>
-    <style type="text/css">
-    .navbar {
+<!DOCTYPE html><html><head><title>INTA课程主页</title><meta name="keywords" content="INTA,INTA课程,intalesson,grunt视频教学,git视频教学,autolayout视频教学,npm视频教学,sublime视频教学,视频教学,nodejs视频教学,node视频教学"><meta name="description" content="INTA本着‘一切皆为易’的原则，讲解互联网前沿技术。一切知识点以最简单的例子，最简约的代码呈现最核心最本质的技术内容。每门课程分为视频讲解部分，技术笔记部分和技术历史部分（那年程序员）。所有课程都是由讲解人自己设计课程大纲，整理授课逻辑，着重于相关技术的思想本质和核心功能实现。避免通篇API文档的复制式讲解。致力于节约学习者的时间成本，同步互联网发展节奏。"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css"><script src="javascripts/jquery.min.js"></script><script src="javascripts/bootstrap.min.js"></script><style type="text/css">.navbar {
       margin-bottom: 0;
       border-radius: 0;
     }
@@ -37,63 +26,35 @@
     }
     .jumbotron {
       position: relative;
-    }
-    </style>
-</head>
-<body>
-  <!-- 第一块区域导航栏 -->
-  <% include ./partials/nav.html %>
-  <!-- 第二块区域标题栏 -->
-  <div class="jumbotron">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-10">
-               <h1>一切皆为易</h1> 
-               <p>记得最初学习计算机语言时，最早学习也最容易理解的一行代码就是 <span style="color: #228b22"><strong>int a<span id="one">|</span></strong></span> </p>
-               <script type="text/javascript">
-               setInterval(function(){
+    }</style></head><body> <% include ./partials/nav.html %> <div class="jumbotron"><div class="container"><div class="row"><div class="col-md-10"><h1>一切皆为易</h1><p>记得最初学习计算机语言时，最早学习也最容易理解的一行代码就是 <span style="color: #228b22"><strong>int a<span id="one">|</span></strong></span></p><script type="text/javascript">setInterval(function(){
                 if($("#one").css("display") == "inline") {
                     $("#one").css("display","none")
                 } else {
                     $("#one").css("display","inline")
                 }
-               },600)
-
-               </script> 
-            </div>
-            <div class="col-md-2">
-                <div class="forImg">
-                 <img src="/images/default_1.png" class="imgTitle">
-                </div>
-            </div>
-        </div>
-      </div>
-  </div>
-  <!-- 第三块区域就是主要显示的内容栏 -->
-  <!-- 3.3.1 -->
-
-  <a name="git"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/git">
-        <img src="/images/github.png" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/git"><h3 class="media-heading">Git课程</h3></a>
-        <p><small>Git是一个开源的版本管理系统，本套视频讲解如何使用git进行版本管理及其github的使用。</small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="gitc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="gitc1" height="24" width="24">&nbsp;&nbsp;<%= gitc %></div>
-        <div class="pull-right" style="color:gray"><small class="gitc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="gitc2" height="22" width="22">&nbsp;&nbsp;<span class="gitlnum"><%= gitl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var i=0
+               },600)</script></div><div class="col-md-2"><div class="forImg"><img src="/images/default_1.png" class="imgTitle"></div></div></div></div></div><a name="sublime"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/sublime"><img src="/images/sublime.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/sublime"><h3 class="media-heading">Sublime Text课程</h3></a><p><small>本课程主要讲述了sublime使用，其中包括行sublime编辑器的基本使用方法，snippet，宏定义，以及开发自己的sublime插件。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="sublimec1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="sublimec1" height="24" width="24">&nbsp;&nbsp;<%= sublimec %></div><div class="pull-right" style="color:gray"><small class="sublimec2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="sublimec2" height="22" width="22">&nbsp;&nbsp;<span class="sublimelnum"><%= sublimel %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var p=0
+          $(".sublimec2").click(function(){
+            if(p<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"sublime"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".sublimelnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".sublimec2").attr('src','images/corner/like1.png')
+            }
+               p++           
+          })</script><div class="pull-right"><small class="sublimec3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="sublimec3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="sublimec4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190995#tuin=2847ea58"><img class="sublimec4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".sublimec1").hover(function(){ $(".sublimec1a").css("visibility","visible") },function(){ $(".sublimec1a").css("visibility","hidden") })
+          $(".sublimec2").hover(function(){ $(".sublimec2a").css("visibility","visible") },function(){ $(".sublimec2a").css("visibility","hidden") })
+          $(".sublimec3").hover(function(){ $(".sublimec3a").css("visibility","visible") },function(){ $(".sublimec3a").css("visibility","hidden") })
+          $(".sublimec4").hover(function(){ $(".sublimec4a").css("visibility","visible") },function(){ $(".sublimec4a").css("visibility","hidden") })</script></div></div></div><a name="git"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/git"><img src="/images/github.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/git"><h3 class="media-heading">Git课程</h3></a><p><small>Git是一个开源的版本管理系统，本套视频讲解如何使用git进行版本管理及其github的使用。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="gitc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="gitc1" height="24" width="24">&nbsp;&nbsp;<%= gitc %></div><div class="pull-right" style="color:gray"><small class="gitc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="gitc2" height="22" width="22">&nbsp;&nbsp;<span class="gitlnum"><%= gitl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var i=0
           $(".gitc2").click(function(){
             if(i<2){
               $.ajax({
@@ -112,45 +73,10 @@
               $(".gitc2").attr('src','images/corner/like1.png')
             }
                i++           
-          })
-        </script>
-
-        <div class="pull-right"><small class="gitc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="gitc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="gitc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191184#tuin=2847ea58"><img class="gitc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".gitc1").hover(function(){ $(".gitc1a").css("visibility","visible") },function(){ $(".gitc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="gitc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="gitc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="gitc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191184#tuin=2847ea58"><img class="gitc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".gitc1").hover(function(){ $(".gitc1a").css("visibility","visible") },function(){ $(".gitc1a").css("visibility","hidden") })
           $(".gitc2").hover(function(){ $(".gitc2a").css("visibility","visible") },function(){ $(".gitc2a").css("visibility","hidden") })
           $(".gitc3").hover(function(){ $(".gitc3a").css("visibility","visible") },function(){ $(".gitc3a").css("visibility","hidden") })
-          $(".gitc4").hover(function(){ $(".gitc4a").css("visibility","visible") },function(){ $(".gitc4a").css("visibility","hidden") })
-        </script>
-    </div>
-    
-
-  </div>
-  </div>
-
-  <!-- 3.3.2 -->
-  <a name="learn"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/learn">
-        <img src="/images/learn.png" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/learn"><h3 class="media-heading">学习方法</h3></a>
-        <p><small>本套视频讲解互联网相关技术学习方法，每种方法在我们的学习过程中都可以扳手式应用，无鸡汤废话。</small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="learnc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="learnc1" height="24" width="24">&nbsp;&nbsp;<%= learnc %></div>
-        <div class="pull-right" style="color:gray"><small class="learnc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="learnc2" height="22" width="22">&nbsp;&nbsp;<span class="learnlnum"><%= learnl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <script type="text/javascript">
-          var j=0
+          $(".gitc4").hover(function(){ $(".gitc4a").css("visibility","visible") },function(){ $(".gitc4a").css("visibility","hidden") })</script></div></div></div><a name="learn"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/learn"><img src="/images/learn.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/learn"><h3 class="media-heading">学习方法</h3></a><p><small>本套视频讲解互联网相关技术学习方法，每种方法在我们的学习过程中都可以扳手式应用，无鸡汤废话。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="learnc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="learnc1" height="24" width="24">&nbsp;&nbsp;<%= learnc %></div><div class="pull-right" style="color:gray"><small class="learnc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="learnc2" height="22" width="22">&nbsp;&nbsp;<span class="learnlnum"><%= learnl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var j=0
           $(".learnc2").click(function(){
             if(j<2){
               $.ajax({
@@ -169,43 +95,10 @@
               $(".learnc2").attr('src','images/corner/like1.png')
             }
                j++           
-          })
-        </script>
-
-        <div class="pull-right"><small class="learnc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="learnc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="learnc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191832#tuin=2847ea58"><img class="learnc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".learnc1").hover(function(){ $(".learnc1a").css("visibility","visible") },function(){ $(".learnc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="learnc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="learnc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="learnc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191832#tuin=2847ea58"><img class="learnc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".learnc1").hover(function(){ $(".learnc1a").css("visibility","visible") },function(){ $(".learnc1a").css("visibility","hidden") })
           $(".learnc2").hover(function(){ $(".learnc2a").css("visibility","visible") },function(){ $(".learnc2a").css("visibility","hidden") })
           $(".learnc3").hover(function(){ $(".learnc3a").css("visibility","visible") },function(){ $(".learnc3a").css("visibility","hidden") })
-          $(".learnc4").hover(function(){ $(".learnc4a").css("visibility","visible") },function(){ $(".learnc4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-  <!-- 3.1 -->
-  <a name="node"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/node">
-          <img src="/images/node.png" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/node"><h3 class="media-heading">Node课程</h3></a>
-        <p><small>本套视频讲解Node.js的基本知识，包括javascript回调的概念，node的运行机制和事件驱动。以及node中常用的核心模块。</small></p>
-      </div>
-    </div>
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="nodec1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="nodec1" height="24" width="24">&nbsp;&nbsp;<%= nodec %></div>
-        <div class="pull-right" style="color:gray"><small class="nodec2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="nodec2" height="22" width="22">&nbsp;&nbsp;<span class="nodelnum"><%= nodel %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var k=0
+          $(".learnc4").hover(function(){ $(".learnc4a").css("visibility","visible") },function(){ $(".learnc4a").css("visibility","hidden") })</script></div></div></div><a name="node"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/node"><img src="/images/node.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/node"><h3 class="media-heading">Node课程</h3></a><p><small>本套视频讲解Node.js的基本知识，包括javascript回调的概念，node的运行机制和事件驱动。以及node中常用的核心模块。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="nodec1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="nodec1" height="24" width="24">&nbsp;&nbsp;<%= nodec %></div><div class="pull-right" style="color:gray"><small class="nodec2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="nodec2" height="22" width="22">&nbsp;&nbsp;<span class="nodelnum"><%= nodel %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var k=0
           $(".nodec2").click(function(){
             if(k<2){
               $.ajax({
@@ -224,44 +117,10 @@
               $(".nodec2").attr('src','images/corner/like1.png')
             }
                k++           
-          })
-        </script>
-
-        <div class="pull-right"><small class="nodec3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="nodec3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="nodec4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191543#tuin=2847ea58"><img class="nodec4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".nodec1").hover(function(){ $(".nodec1a").css("visibility","visible") },function(){ $(".nodec1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="nodec3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="nodec3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="nodec4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191543#tuin=2847ea58"><img class="nodec4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".nodec1").hover(function(){ $(".nodec1a").css("visibility","visible") },function(){ $(".nodec1a").css("visibility","hidden") })
           $(".nodec2").hover(function(){ $(".nodec2a").css("visibility","visible") },function(){ $(".nodec2a").css("visibility","hidden") })
           $(".nodec3").hover(function(){ $(".nodec3a").css("visibility","visible") },function(){ $(".nodec3a").css("visibility","hidden") })
-          $(".nodec4").hover(function(){ $(".nodec4a").css("visibility","visible") },function(){ $(".nodec4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-  <!-- 3.2 -->
-  <a name="npm"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/npm">
-        <img src="/images/npm.png" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/npm"><h3 class="media-heading">NPM课程</h3></a>
-        <p><small>NPM是javascript的包管理工具,我们可以通过NPM查找和复用其他开发者的代码，同样，我们也可以通过NPM分享自己的功能模块供其他开发者使用，共同提升开发效率。</small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="npmc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="npmc1" height="24" width="24">&nbsp;&nbsp;<%= npmc %></div>
-        <div class="pull-right" style="color:gray"><small class="npmc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="npmc2" height="22" width="22">&nbsp;&nbsp;<span class="npmlnum"><%= npml %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var l=0
+          $(".nodec4").hover(function(){ $(".nodec4a").css("visibility","visible") },function(){ $(".nodec4a").css("visibility","hidden") })</script></div></div></div><a name="npm"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/npm"><img src="/images/npm.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/npm"><h3 class="media-heading">NPM课程</h3></a><p><small>NPM是javascript的包管理工具,我们可以通过NPM查找和复用其他开发者的代码，同样，我们也可以通过NPM分享自己的功能模块供其他开发者使用，共同提升开发效率。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="npmc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="npmc1" height="24" width="24">&nbsp;&nbsp;<%= npmc %></div><div class="pull-right" style="color:gray"><small class="npmc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="npmc2" height="22" width="22">&nbsp;&nbsp;<span class="npmlnum"><%= npml %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var l=0
           $(".npmc2").click(function(){
             if(l<2){
               $.ajax({
@@ -280,44 +139,10 @@
               $(".npmc2").attr('src','images/corner/like1.png')
             }
                l++           
-          })
-        </script>
-
-        <div class="pull-right"><small class="npmc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="npmc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="npmc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190987#tuin=2847ea58"><img class="npmc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".npmc1").hover(function(){ $(".npmc1a").css("visibility","visible") },function(){ $(".npmc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="npmc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="npmc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="npmc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190987#tuin=2847ea58"><img class="npmc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".npmc1").hover(function(){ $(".npmc1a").css("visibility","visible") },function(){ $(".npmc1a").css("visibility","hidden") })
           $(".npmc2").hover(function(){ $(".npmc2a").css("visibility","visible") },function(){ $(".npmc2a").css("visibility","hidden") })
           $(".npmc3").hover(function(){ $(".npmc3a").css("visibility","visible") },function(){ $(".npmc3a").css("visibility","hidden") })
-          $(".npmc4").hover(function(){ $(".npmc4a").css("visibility","visible") },function(){ $(".npmc4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-    <!-- 3.3 -->
-  <a name="express"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/express">
-        <img src="/images/express.png" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/express"><h3 class="media-heading">Expressjs课程</h3></a>
-        <p><small>Express是一个简洁，灵活的node.js Web应用开发框架。本套视频主要讲解express中间件，静态路径，路由等相关知识。</small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="expressc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="expressc1" height="24" width="24">&nbsp;&nbsp;<%= expressc %></div>
-        <div class="pull-right" style="color:gray"><small class="expressc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="expressc2" height="22" width="22">&nbsp;&nbsp;<span class="expresslnum"><%= expressl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var m=0
+          $(".npmc4").hover(function(){ $(".npmc4a").css("visibility","visible") },function(){ $(".npmc4a").css("visibility","hidden") })</script></div></div></div><a name="express"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/express"><img src="/images/express.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/express"><h3 class="media-heading">Expressjs课程</h3></a><p><small>Express是一个简洁，灵活的node.js Web应用开发框架。本套视频主要讲解express中间件，静态路径，路由等相关知识。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="expressc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="expressc1" height="24" width="24">&nbsp;&nbsp;<%= expressc %></div><div class="pull-right" style="color:gray"><small class="expressc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="expressc2" height="22" width="22">&nbsp;&nbsp;<span class="expresslnum"><%= expressl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var m=0
           $(".expressc2").click(function(){
             if(m<2){
               $.ajax({
@@ -336,47 +161,10 @@
               $(".expressc2").attr('src','images/corner/like1.png')
             }
                m++           
-          })
-        </script>
-
-        <div class="pull-right"><small class="expressc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="expressc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="expressc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191538#tuin=2847ea58"><img class="expressc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".expressc1").hover(function(){ $(".expressc1a").css("visibility","visible") },function(){ $(".expressc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="expressc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="expressc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="expressc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191538#tuin=2847ea58"><img class="expressc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".expressc1").hover(function(){ $(".expressc1a").css("visibility","visible") },function(){ $(".expressc1a").css("visibility","hidden") })
           $(".expressc2").hover(function(){ $(".expressc2a").css("visibility","visible") },function(){ $(".expressc2a").css("visibility","hidden") })
           $(".expressc3").hover(function(){ $(".expressc3a").css("visibility","visible") },function(){ $(".expressc3a").css("visibility","hidden") })
-          $(".expressc4").hover(function(){ $(".expressc4a").css("visibility","visible") },function(){ $(".expressc4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-
-    <!-- 3.3.0 -->
-  <a name="grunt"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/grunt">
-        <img src="/images/grunt.png" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/grunt"><h3 class="media-heading">grunt课程</h3></a>
-        <p><small>
-          grunt是javascript项目的任务优化器。它可以帮助我们完成javascript项目中的重复工作。也可以把项目中的好多任务进行自动化操作。grunt有庞大的社区可以帮助我们便捷，高效，快速的构建javascript项目。
-        </small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="gruntc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="gruntc1" height="24" width="24">&nbsp;&nbsp;<%= gruntc %></div>
-        <div class="pull-right" style="color:gray"><small class="gruntc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="gruntc2" height="22" width="22">&nbsp;&nbsp;<span class="gruntlnum"><%= gruntl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var n=0
+          $(".expressc4").hover(function(){ $(".expressc4a").css("visibility","visible") },function(){ $(".expressc4a").css("visibility","hidden") })</script></div></div></div><a name="grunt"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/grunt"><img src="/images/grunt.png" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/grunt"><h3 class="media-heading">grunt课程</h3></a><p><small>grunt是javascript项目的任务优化器。它可以帮助我们完成javascript项目中的重复工作。也可以把项目中的好多任务进行自动化操作。grunt有庞大的社区可以帮助我们便捷，高效，快速的构建javascript项目。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="gruntc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="gruntc1" height="24" width="24">&nbsp;&nbsp;<%= gruntc %></div><div class="pull-right" style="color:gray"><small class="gruntc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="gruntc2" height="22" width="22">&nbsp;&nbsp;<span class="gruntlnum"><%= gruntl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var n=0
           $(".gruntc2").click(function(){
             if(n<2){
               $.ajax({
@@ -395,44 +183,10 @@
               $(".gruntc2").attr('src','images/corner/like1.png')
             }
                n++           
-          })
-        </script>
-        <div class="pull-right"><small class="gruntc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="gruntc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="gruntc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191804#tuin=2847ea58"><img class="gruntc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".gruntc1").hover(function(){ $(".gruntc1a").css("visibility","visible") },function(){ $(".gruntc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="gruntc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="gruntc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="gruntc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191804#tuin=2847ea58"><img class="gruntc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".gruntc1").hover(function(){ $(".gruntc1a").css("visibility","visible") },function(){ $(".gruntc1a").css("visibility","hidden") })
           $(".gruntc2").hover(function(){ $(".gruntc2a").css("visibility","visible") },function(){ $(".gruntc2a").css("visibility","hidden") })
           $(".gruntc3").hover(function(){ $(".gruntc3a").css("visibility","visible") },function(){ $(".gruntc3a").css("visibility","hidden") })
-          $(".gruntc4").hover(function(){ $(".gruntc4a").css("visibility","visible") },function(){ $(".gruntc4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-
-  <!-- 3.2.9 -->
-  <a name="sass"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/sass">
-        <img src="/images/sass.jpg" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/sass"><h3 class="media-heading">SASS课程</h3></a>
-        <p><small>sass是目前世界上最稳定，最成熟，最给力的CSS扩充语言。sass兼容所有的css版本，由于其强大的团队和社区，越来越多的公司和机构选择sass作为CSS扩展语言。</small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="sassc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="sassc1" height="24" width="24">&nbsp;&nbsp;<%= sassc %></div>
-        <div class="pull-right" style="color:gray"><small class="sassc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="sassc2" height="22" width="22">&nbsp;&nbsp;<span class="sasslnum"><%= sassl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var o=0
+          $(".gruntc4").hover(function(){ $(".gruntc4a").css("visibility","visible") },function(){ $(".gruntc4a").css("visibility","hidden") })</script></div></div></div><a name="sass"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/sass"><img src="/images/sass.jpg" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/sass"><h3 class="media-heading">SASS课程</h3></a><p><small>sass是目前世界上最稳定，最成熟，最给力的CSS扩充语言。sass兼容所有的css版本，由于其强大的团队和社区，越来越多的公司和机构选择sass作为CSS扩展语言。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="sassc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="sassc1" height="24" width="24">&nbsp;&nbsp;<%= sassc %></div><div class="pull-right" style="color:gray"><small class="sassc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="sassc2" height="22" width="22">&nbsp;&nbsp;<span class="sasslnum"><%= sassl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var o=0
           $(".sassc2").click(function(){
             if(o<2){
               $.ajax({
@@ -451,44 +205,10 @@
               $(".sassc2").attr('src','images/corner/like1.png')
             }
                o++           
-          })
-        </script>
-        <div class="pull-right"><small class="sassc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="sassc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="sassc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191186#tuin=2847ea58"><img class="sassc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".sassc1").hover(function(){ $(".sassc1a").css("visibility","visible") },function(){ $(".sassc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="sassc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="sassc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="sassc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/191186#tuin=2847ea58"><img class="sassc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".sassc1").hover(function(){ $(".sassc1a").css("visibility","visible") },function(){ $(".sassc1a").css("visibility","hidden") })
           $(".sassc2").hover(function(){ $(".sassc2a").css("visibility","visible") },function(){ $(".sassc2a").css("visibility","hidden") })
           $(".sassc3").hover(function(){ $(".sassc3a").css("visibility","visible") },function(){ $(".sassc3a").css("visibility","hidden") })
-          $(".sassc4").hover(function(){ $(".sassc4a").css("visibility","visible") },function(){ $(".sassc4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-
-  <!-- 3.4 -->
-  <a name="autolayout"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <a href="/compedium/autolayout">
-        <img src="/images/auto.jpg" class="media-object" style="width:200px">
-        </a>
-      </div>
-      <div class="media-body">
-        <a href="/compedium/autolayout"><h3 class="media-heading">IOS-AutoLayout课程</h3></a>
-        <p><small>本课程主要讲述IOS中AutoLayout的使用，以及IOS9的新特性stackLayout。</small></p>
-      </div>
-    </div>
-
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="autolayoutc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="autolayoutc1" height="24" width="24">&nbsp;&nbsp;<%= autolayoutc %></div>
-        <div class="pull-right" style="color:gray"><small class="autolayoutc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="autolayoutc2" height="22" width="22">&nbsp;&nbsp;<span class="autolayoutlnum"><%= autolayoutl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
-        <script type="text/javascript">
-          var p=0
+          $(".sassc4").hover(function(){ $(".sassc4a").css("visibility","visible") },function(){ $(".sassc4a").css("visibility","hidden") })</script></div></div></div><a name="autolayout"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><a href="/compedium/autolayout"><img src="/images/auto.jpg" class="media-object" style="width:200px"></a></div><div class="media-body"><a href="/compedium/autolayout"><h3 class="media-heading">IOS-AutoLayout课程</h3></a><p><small>本课程主要讲述IOS中AutoLayout的使用，以及IOS9的新特性stackLayout。</small></p></div></div><div style="bottom: 20px;right: 30px;position: absolute;display: inline"><div class="pull-right" style="color:gray"><small class="autolayoutc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="autolayoutc1" height="24" width="24">&nbsp;&nbsp;<%= autolayoutc %></div><div class="pull-right" style="color:gray"><small class="autolayoutc2a" style="display:block;visibility: hidden;color:#228B22">挺好</small><img src="images/corner/like.png" class="autolayoutc2" height="22" width="22">&nbsp;&nbsp;<span class="autolayoutlnum"><%= autolayoutl %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div><script type="text/javascript">var p=0
           $(".autolayoutc2").click(function(){
             if(p<2){
               $.ajax({
@@ -507,46 +227,7 @@
               $(".autolayoutc2").attr('src','images/corner/like1.png')
             }
                p++           
-          })
-        </script>
-        <div class="pull-right"><small class="autolayoutc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="autolayoutc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="autolayoutc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190995#tuin=2847ea58"><img class="autolayoutc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".autolayoutc1").hover(function(){ $(".autolayoutc1a").css("visibility","visible") },function(){ $(".autolayoutc1a").css("visibility","hidden") })
+          })</script><div class="pull-right"><small class="autolayoutc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="autolayoutc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div><div class="pull-right"><small class="autolayoutc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/190995#tuin=2847ea58"><img class="autolayoutc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div><script type="text/javascript">$(".autolayoutc1").hover(function(){ $(".autolayoutc1a").css("visibility","visible") },function(){ $(".autolayoutc1a").css("visibility","hidden") })
           $(".autolayoutc2").hover(function(){ $(".autolayoutc2a").css("visibility","visible") },function(){ $(".autolayoutc2a").css("visibility","hidden") })
           $(".autolayoutc3").hover(function(){ $(".autolayoutc3a").css("visibility","visible") },function(){ $(".autolayoutc3a").css("visibility","hidden") })
-          $(".autolayoutc4").hover(function(){ $(".autolayoutc4a").css("visibility","visible") },function(){ $(".autolayoutc4a").css("visibility","hidden") })
-        </script>
-    </div>
-
-  </div>
-  </div>
-
-  <!-- 3.8 -->
-  <a name="sublime"></a>
-  <div class="container">
-  <div class="jumbotron">
-
-    <div class="media">
-      <div class="media-left">
-        <!-- <a href="/compedium/sublime"> -->
-          <img src="/images/sublime.png" class="media-object" style="width:200px">
-        <!-- </a> -->
-      </div>
-      <div class="media-body">
-        <!-- <a href="/compedium/sublime"><h3 class="media-heading">Sublime课程【敬请期待】</h3></a> -->
-        <h3 class="media-heading">Sublime课程【敬请期待】</h3>
-        <a href="/introduction#sponsor"><p style="color:red;margin-bottom: 0;"><small>点击此链接关注微信公众号，即时得到开课通知</small></p></a>
-        <p><small>本套视频讲述了sublime使用，其中包括行sublime编译器的基本使用方法，snippet，宏定义，以及开发自己的sublime插件。</small></p>
-      </div>
-    </div>
-
-  </div>
-  </div>
-  
-  <% include ./partials/foot.html %>
-
-  <!-- 登录注册model -->
-  <% include ./partials/modal.html %>
-</body>
-</html>
+          $(".autolayoutc4").hover(function(){ $(".autolayoutc4a").css("visibility","visible") },function(){ $(".autolayoutc4a").css("visibility","hidden") })</script></div></div></div><a name="sublime"></a><div class="container"><div class="jumbotron"><div class="media"><div class="media-left"><img src="/images/phantom.png" class="media-object" style="width:200px"></div><div class="media-body"><h3 class="media-heading">Phantomjs课程【敬请期待】</h3><a href="/introduction#sponsor"><p style="color:red;margin-bottom: 0"><small>点击此链接关注微信公众号，即时得到开课通知</small></p></a><p><small>本套视频主要讲述Phantomjs的核心功能和使用方法，使用Phantomjs完成网络爬虫的实现。及其Phantomjs的其他解决方案</small></p></div></div></div></div> <% include ./partials/foot.html %>  <% include ./partials/modal.html %> </body></html>

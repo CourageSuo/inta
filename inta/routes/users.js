@@ -113,7 +113,9 @@ router.post('/',function(req,res,next){
             "sassc": doc[5].number,
             "sassl": doc[5].like,
             "autolayoutc": doc[7].number,
-            "autolayoutl": doc[7].like
+            "autolayoutl": doc[7].like,
+            "sublimec": doc[8].number,
+            "sublimel": doc[8].like
 		})
 
 		})
