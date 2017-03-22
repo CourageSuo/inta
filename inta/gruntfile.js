@@ -7,7 +7,7 @@ module.exports = function(grunt){
 					collapseWhitespace: true
 				},
 				files: {
-					"views/index0.html":"views/index.html"
+					"views/index.html":"views/indexg.html"
 				}
 			}
 		}
