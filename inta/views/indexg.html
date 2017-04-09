@@ -70,6 +70,63 @@
       </div>
   </div>
   <!-- 第三块区域就是主要显示的内容栏 -->
+  <!-- phantomjs -->
+    <!-- 3.4 -->
+  <a name="phantom"></a>
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/phantom">
+        <img src="/images/phantom.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/phantom"><h3 class="media-heading">Phantom课程</h3></a>
+        <p><small>本套视频主要讲述Phantomjs的核心功能和使用方法，使用Phantomjs完成自动登录，网络爬虫，及其Phantomjs的其他解决方案</small></p>
+      </div>
+    </div>
+
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="phantomc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="phantomc1" height="24" width="24">&nbsp;&nbsp;<%= phantomc %></div>
+        <div class="pull-right" style="color:gray"><small class="phantomc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="phantomc2" height="22" width="22">&nbsp;&nbsp;<span class="phantomlnum"><%= phantoml %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var p=0
+          $(".phantomc2").click(function(){
+            if(p<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"phantom"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".phantomlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".phantomc2").attr('src','images/corner/like1.png')
+            }
+               p++           
+          })
+        </script>
+        <div class="pull-right"><small class="phantomc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="phantomc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="phantomc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/194304#tuin=2847ea58"><img class="phantomc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".phantomc1").hover(function(){ $(".phantomc1a").css("visibility","visible") },function(){ $(".phantomc1a").css("visibility","hidden") })
+          $(".phantomc2").hover(function(){ $(".phantomc2a").css("visibility","visible") },function(){ $(".phantomc2a").css("visibility","hidden") })
+          $(".phantomc3").hover(function(){ $(".phantomc3a").css("visibility","visible") },function(){ $(".phantomc3a").css("visibility","hidden") })
+          $(".phantomc4").hover(function(){ $(".phantomc4a").css("visibility","visible") },function(){ $(".phantomc4a").css("visibility","hidden") })
+        </script>
+    </div>
+
+  </div>
+  </div>
+
   <!-- 3.4 -->
   <a name="sublime"></a>
   <div class="container">
@@ -586,14 +643,14 @@
     <div class="media">
       <div class="media-left">
         <!-- <a href="/compedium/sublime"> -->
-          <img src="/images/phantom.png" class="media-object" style="width:200px">
+          <img src="/images/backbone.png" class="media-object" style="width:200px">
         <!-- </a> -->
       </div>
       <div class="media-body">
         <!-- <a href="/compedium/sublime"><h3 class="media-heading">Sublime课程【敬请期待】</h3></a> -->
-        <h3 class="media-heading">Phantomjs课程【敬请期待】</h3>
+        <h3 class="media-heading">Backbone.js课程【敬请期待】</h3>
         <a href="/introduction#sponsor"><p style="color:red;margin-bottom: 0;"><small>点击此链接关注微信公众号，即时得到开课通知</small></p></a>
-        <p><small>本套视频主要讲述Phantomjs的核心功能和使用方法，使用Phantomjs完成网络爬虫的实现。及其Phantomjs的其他解决方案</small></p>
+        <p><small>通过MVC中的模型进行键值绑定及事件自定义，使得javascript程序变得更加模块化得前端框架</small></p>
       </div>
     </div>
 

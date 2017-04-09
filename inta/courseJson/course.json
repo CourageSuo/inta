@@ -7517,8 +7517,295 @@
                                  "url" : "/express/11",
                                  "name" : "第十一节：生成器"
                                }]
+             },
+  "phantom/1" : { 
+               "src" : "/video/phantom/phantom_1.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/2" : { 
+               "src" : "/video/phantom/phantom_2.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/3" : { 
+               "src" : "/video/phantom/phantom_3.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/4" : { 
+               "src" : "/video/phantom/phantom_4.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/5" : { 
+               "src" : "/video/phantom/phantom_5.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/6" : { 
+               "src" : "/video/phantom/phantom_6.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/7" : { 
+               "src" : "/video/phantom/phantom_7.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
+             },
+  "phantom/8" : { 
+               "src" : "/video/phantom/phantom_8.mp4",
+               "qq" : "https://ke.qq.com/course/191538#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/phantom/1",
+                                 "name" : "第一节：安装"
+                               },
+                               {
+                                 "url" : "/phantom/2",
+                                 "name" : "第二节：核心模块"
+                               },
+                               {
+                                 "url" : "/phantom/3",
+                                 "name" : "第三节：WebPage对象（一）"
+                               },
+                               {
+                                 "url" : "/phantom/4",
+                                 "name" : "第四节：WebPage对象（二）"
+                               },
+                               {
+                                 "url" : "/phantom/5",
+                                 "name" : "第五节：提交表单"
+                               },
+                               {
+                                 "url" : "/phantom/6",
+                                 "name" : "第六节：操作Cookie"
+                               },
+                               {
+                                 "url" : "/phantom/7",
+                                 "name" : "第七节：CasperJS"
+                               },
+                               {
+                                 "url" : "/phantom/8",
+                                 "name" : "第八节：步进式语言"
+                               }]
              }
-
 }
 
 

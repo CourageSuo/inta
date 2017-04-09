@@ -1,18 +1,226 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>sublime课程</title>
-	<style type="text/css">
-		html {
-			  background: url(/images/other/next.png) no-repeat center center fixed; 
-              -webkit-background-size: cover;
-              -moz-background-size: cover;
-              -o-background-size: cover;
-              background-size: cover;
-		}
-	</style>
+  <meta charset="utf-8">
+  <title>课程大纲</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/phantom/phantom.css">
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    </style>
 </head>
 <body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>PhantomJS课程大纲</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/phantom/1">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>安装</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/1">第一节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/phantom/2">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>核心模块</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/2">第二节</p></a>
+    </div>
+  <div class="col-sm-4">
+      <a href="/course/phantom/3">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>WebPage对象（一）</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/3">第三节</p></a>
+    </div>
+</div><br>
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/phantom/4">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>WebPage对象（二）</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/4">第四节</p></a>
+  </div>
+    <div class="col-sm-4">
+      <a href="/course/phantom/5">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>提交表单</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/5">第五节</p></a>
+  </div>
+  <div class="col-sm-4">
+      <a href="/course/phantom/6">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>操作Cookie</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/6">第六节</p></a>
+    </div>
+</div><br>
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/phantom/7">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>CasperJS</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/7">第七节</p></a>
+  </div>
+    <div class="col-sm-4">
+      <a href="/course/phantom/8">
+      <img src="/images/Course/phantom.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h3>步进式语言</h3>
+          </div> 
+      </a>
+      <a href="/course/sublime/8">第二节</p></a>
+    </div>
+  </div>
+</div><br>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>PhantomJS课程概述</h2>
+  <p>PhantomJS是一个此时无形胜有形的浏览器，它可以通过javascript的接口操作网页中的DOM，JSON，Canvas等</p>
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第一节：安装</div>
+      <div class="panel-body">Windows安装：
+      <br>下载解压文件
+      <br>我的电脑 -> 属性 -> 高级系统设置
+      <br>点击环境变量
+      <br>在系统变量窗口中，找到Path变量，选中然后选择编辑
+      <br>新建后，添加新的环境变量（phantomjs.exe）所在路径
+      <br>在cmd中，运行phantomjs
+      <br>Mac安装：
+      <br>下载解压文件
+      <br>在用户目录下查看ls -a查看全部文件
+      <br>打开.bash_profile文件
+      <br>加入export PATH=$PATH:/Users/suoyong/phantomjs-2.1.1-macosx/bin
+      <br>在终端中输入phantomjs运行
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第二节：核心模块</div>
+      <div class="panel-body">Web page 模块
+      <br>文件模块
+      <br>系统模块
+      <br>子进程模块
+      <br>网络服务模块
+      <br>网站<a href="phantomjs.org/api/">phantomjs.org/api/</a>
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">第三节：WebPage对象（一）</div>
+      <div class="panel-body">
+        创建WebPage对象：create()
+        <br>打开网址：page.open
+        <br>在evaluate方法中操作页面（DOM，JSON，Canvas等）
+        <br>把当前页面保存成图片:page.render()
+      </div>
+    </div>
+    <!-- 4 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第四节：WebPage对象（二）</div>
+      <div class="panel-body">
+        沙盒：在一个固定的地方有限制的执行程序，保证不会干扰系统中其他程序运行.
+        <br>evaluate方法在沙盒中运行，沙盒中的输出不等于javascript中的输出
+        <br>在沙盒中使用console.log()需添加page.onConsoleMessage = function(msg) { console.log(msg)} 
+        <br>可为evaluate添加参数，并在回调函数中使用
+      </div>
+    </div>
+    <!-- 5 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第五节：提交表单</div>
+      <div class="panel-body">page.render()可以把页面以图像的模式保存在电脑中
+      <br>page.onLoadFinishied = function(){ }
+      <br>1）直接使用dom对象form.submit()
+      <br>2) 使用事件触发，var evt = docuemnt.createEvent('MouseEvents')
+      <br><span style="margin-left: 114px">evt.initMouseEvent('click')</span>
+      <br><span style="margin-left: 114px">dom.dispatchEvent(evt)</span>
+      </div>
+    </div> 
+    <!-- 6 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第六节：操作Cookie</div>
+      <div class="panel-body">phantom.cookies:查看cookie
+      <br>phantom.addCookie:设置cookie，（必须包括：name,value,domain键）
+      <br>page.cookies:查看cookie
+      <br>page.addCookie:设置cookie, (必须包括：name,value,domain键)
+      </div>
+    </div>    
+    <!-- 7 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第七节：CasperJS</div>
+      <div class="panel-body">
+      CasperJS是phantomjs的扩展，能更加简单的操作页面元素
+      <br>casper.start() = page.open()
+      <br>echo() = console.log()
+      <br><a href="/downloads/casperjs.pdf" download><img src="/images/other/download.png">下载CasperJS学习文件</a>
+      </div>
+    </div> 
+    <!-- 8 -->
+     <div class="panel panel-default">
+      <div class="panel-heading">第八节：步进式脚本语言</div>
+      <div class="panel-body">
+        CasperJS属于步进式脚本语言（Navigation Scripting)
+        <br>使用casper.then()添加执行步骤
+        <br>在casper.run()执行每一步的任我
+        <br>casper.page = webpage
+        <br>casper.capture = webpage.render
+        <br>casper.evaluate = webpage.evaluate
+      </div>
+    </div>
+  
+  </div>
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p>别有幽愁暗恨生 此时无声胜有声</p>
+  <blockquote>
+    <p>一个绿色的小幽灵在灰暗的的灰色背景下，貌似颤颤悠悠的挪动它的身体，让我们感觉原本这个无形的物种也在努力的完成着他的任务，Phantom的中文意思就是幽灵，或许当Ariya Hidayat想做一个使用脚本语言来抓取，保存，过滤互联网中的内容时，不就是相当于一个无形浏览器的幽灵在执行它的任务吗？而且通过PhantomJS也能看出一个程序员的谦卑。当2011年一月第一次发表PhantomJS时，作者并没有给他取一个高大上的名字，比如像spiritus(神灵），而是用了一个听起来平凡低调的名字，通过这一点PhantomJS开源那是肯定的了。其实在当时已经有了几个类似PhantomJS的工具，但是在这个JavaScript盛行的时代，这个不能浏览的浏览器的出现也就此时无形胜有形了。</p>
+    <footer>INTA课程--阿亮</footer>
+  </blockquote>
+</div>
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+<img class="p1" src="/images/phantomjs/phantom1.png">
+<img class="p2" src="/images/phantomjs/phantom2.png">
+<img class="p3" src="/images/phantomjs/phantom3.png">
+<!-- <div class="p4"></div> -->
+<script type="text/javascript" src="/javascripts/phantom/phantom.js"></script>
 
 </body>
 </html>

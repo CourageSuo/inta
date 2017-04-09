@@ -1,0 +1,21 @@
+.p1 {
+	position: absolute;
+	opacity: 0.5;
+}
+
+.p2 {
+	position: absolute;
+	opacity: 0.5;	
+}
+
+.p3 {
+	position: absolute;
+	opacity: 0.5;	
+}
+
+.p4 {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background-color: powderblue;
+}
