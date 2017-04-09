@@ -117,7 +117,7 @@ router.post('/',function(req,res,next){
             "sublimec": doc[8].number,
             "sublimel": doc[8].like,
             "phantomc": doc[9].number,
-            "phantoml": doc[10].like
+            "phantoml": doc[9].like
 		})
 
 		})
