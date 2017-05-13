@@ -128,7 +128,7 @@
       <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css">
       <h5><span class="glyphicon glyphicon-time"></span>发表于：{{ createdOn }}</h5>
       <h5><span class="label label-danger tagStyleBlog">{{ tag }}</span></h5><br>
-      <p id="forWhiteSpace">{{ content }}</p>
+      <div id="forWhiteSpace">{{ content }}</div>
       <p><a href="{{ link }}" style="visibility: {{ linkPic }}">相关连接：{{ link }}</a></p>
       <div class="selfBlogImgDiv"><img class="uploadBlogImg" src="/blogImg/{{ uploadImg }}" onerror='this.style.display = "none"'></div>
       <br><br>
@@ -139,7 +139,7 @@
       <div id="formSubmit">
       <form role="form" method="post" action="/helloworld/comment">
         <div class="form-group" >
-          <textarea class="form-control" rows="3" name="textArea" required maxlength="2000"></textarea>
+          <textarea class="form-control textSubmit" rows="3" name="textArea" required maxlength="2000"></textarea>
         </div>
         <!-- <input type="hidden" name="whoseComment" value="{{ _id }}"> -->
         <input type="button" class="btn btn-success commentSubmit" value="提交">

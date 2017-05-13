@@ -72,7 +72,7 @@ var publicRec = function(req,res,next){
         var tag = req.body.tag
 
         var beijingTime = new Date()
-        var created = beijingTime.getFullYear() + '年' + (beijingTime.getMonth() + 1) + '月' + beijingTime.getDate() + '日   ' + beijingTime.getHours() + ':' + (beijingTime.getMinutes()<10?'0':'' + beijingTime.getMinutes())
+        var created = beijingTime.getFullYear() + '年' + (beijingTime.getMonth() + 1) + '月' + beijingTime.getDate() + '日' + '  ' + beijingTime.getHours() + ':' + (beijingTime.getMinutes()<10?'0':'' + beijingTime.getMinutes())
 
         var link = req.body.link
         var uploadImg = req.file === undefined ? '' : req.file.filename

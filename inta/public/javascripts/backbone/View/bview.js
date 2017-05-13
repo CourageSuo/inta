@@ -12,7 +12,6 @@ var formSubmit = Backbone.View.extend({
         } else {
         	var beijingTime = new Date()
         	var created = beijingTime.getFullYear() + '年' + (beijingTime.getMonth() + 1) + '月' + beijingTime.getDate() + '日   ' + beijingTime.getHours() + ':' + (beijingTime.getMinutes()<10?'0':'') + beijingTime.getMinutes()
-        	console.log(created)
         	var cont0 = $('.form-control').val().replace(/</g, '&lt;')
             var cont1 = cont0.replace(/>/g,'&gt;')
             var cont2 = cont1.replace(/\r?\n/g, '<br />')
@@ -27,6 +26,7 @@ var formSubmit = Backbone.View.extend({
         	var comv = new commentView({model:comm})
 
         	$('.commentContainer').prepend(comv.render().$el)
+        	$('.textSubmit').val('')
         }
         }
 	}

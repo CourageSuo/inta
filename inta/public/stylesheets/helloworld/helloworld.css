@@ -60,12 +60,12 @@
 	background-color: white;
 	padding-left: 0px;
 	padding-right: 0px;
-	border:solid 10px rgba(0,0,0,0);
+	border:solid 7px rgba(0,0,0,0);
 	border-top: 0px;
 	border-bottom: 0px;
 	margin-left: 20px;
 	margin-right: 20px;
-	width: 134px;
+	width: 135px;
 	white-space: nowrap;
 	overflow: hidden;
 }
@@ -102,10 +102,16 @@
 
 #forWhiteSpace {
 	white-space:pre;
+    word-wrap: break-word; 
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
 }
 
 #pWhiteSpace {
 	white-space: pre;
+    word-wrap: break-word; 
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
 }
 
 .sidenav {
