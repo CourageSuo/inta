@@ -8,37 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
 		<script src="javascripts/jquery.min.js"></script>
 		<script src="javascripts/bootstrap.min.js"></script>
-    <style type="text/css">
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    .footer {
-      margin:0;
-      padding:0;
-      border-radius: 0;
-    }
-    .forImg {
-        width: 150px;
-        border-radius: 10%;
-        /*background-color: #CD853F;*/
-        /*background-color: #891418;*/
-        border: 2px solid #A0522d;
-        box-shadow: 2px 2px 5px 4px #FAF0E6;
-    }
-    .imgTitle {
-        width: 150px;
-        height: 150px;
-    }
-    .forImg {
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
-    }
-    .jumbotron {
-      position: relative;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
 </head>
 <body>
   <!-- 第一块区域导航栏 -->
@@ -70,58 +40,40 @@
       </div>
   </div>
   <!-- 第三块区域就是主要显示的内容栏 -->
-  <!-- phantomjs -->
-    <!-- 3.4 -->
-  <a name="phantom"></a>
+  <a name="helloworld"></a>
   <div class="container">
   <div class="jumbotron">
 
     <div class="media">
       <div class="media-left">
-        <a href="/compedium/phantom">
-        <img src="/images/phantom.png" class="media-object" style="width:200px">
+        <a href="/helloworld">
+          <img src="/images/hw.png" class="media-object" style="width:200px">
         </a>
       </div>
       <div class="media-body">
-        <a href="/compedium/phantom"><h3 class="media-heading">Phantom课程</h3></a>
-        <p><small>本套视频主要讲述Phantomjs的核心功能和使用方法，使用Phantomjs完成自动登录，网络爬虫，及其Phantomjs的其他解决方案</small></p>
+        <a href="/helloworld"><h3 class="media-heading">您好，世界</h3></a>
+        <p><small>Hello,INTA向您问好，这里有最新最前沿的互联网文章，有关于技术方面的问答，也可以共勉培训中遇到的酸甜苦辣和工作中的烦囧轶事</small></p>
       </div>
     </div>
 
-    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
-        <div class="pull-right" style="color:gray"><small class="phantomc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="phantomc1" height="24" width="24">&nbsp;&nbsp;<%= phantomc %></div>
-        <div class="pull-right" style="color:gray"><small class="phantomc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="phantomc2" height="22" width="22">&nbsp;&nbsp;<span class="phantomlnum"><%= phantoml %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+  </div>
+  </div>
 
-        <script type="text/javascript">
-          var p=0
-          $(".phantomc2").click(function(){
-            if(p<2){
-              $.ajax({
-                url:'/like',
-                type:'get',
-                data:{"oneLike":"phantom"}, //get请求时数据
-                dataType:'json', //get请求时的数据格式
-                success:function(data){
-                  $(".phantomlnum").text(parseInt(data))
-                },
-                error:function(request,error){
-                  alert("Request: "+JSON.stringify(request));
-                }
-              }) 
-            } else {
-              $(".phantomc2").attr('src','images/corner/like1.png')
-            }
-               p++           
-          })
-        </script>
-        <div class="pull-right"><small class="phantomc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="phantomc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
-        <div class="pull-right"><small class="phantomc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/199112#tuin=2847ea58"><img class="phantomc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
-        <script type="text/javascript">
-          $(".phantomc1").hover(function(){ $(".phantomc1a").css("visibility","visible") },function(){ $(".phantomc1a").css("visibility","hidden") })
-          $(".phantomc2").hover(function(){ $(".phantomc2a").css("visibility","visible") },function(){ $(".phantomc2a").css("visibility","hidden") })
-          $(".phantomc3").hover(function(){ $(".phantomc3a").css("visibility","visible") },function(){ $(".phantomc3a").css("visibility","hidden") })
-          $(".phantomc4").hover(function(){ $(".phantomc4a").css("visibility","visible") },function(){ $(".phantomc4a").css("visibility","hidden") })
-        </script>
+  <!-- 海盗书店 -->
+    <a name="book"></a>
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/piracy">
+          <img src="/images/book.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/piracy"><h3 class="media-heading" style="color:red">海盗书店</h3></a>
+        <p><small>在INTA的学习方法课程中说过，总有一本书籍的表达方式内让你透彻理解所学的知识。不是学不会，是没找到适合自己理解的语言。</small></p>
+      </div>
     </div>
 
   </div>
@@ -579,6 +531,63 @@
   </div>
   </div>
 
+  <!-- phantomjs -->
+    <!-- 3.4 -->
+  <a name="phantom"></a>
+  <div class="container">
+  <div class="jumbotron">
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/compedium/phantom">
+        <img src="/images/phantom.png" class="media-object" style="width:200px">
+        </a>
+      </div>
+      <div class="media-body">
+        <a href="/compedium/phantom"><h3 class="media-heading">Phantom课程</h3></a>
+        <p><small>本套视频主要讲述Phantomjs的核心功能和使用方法，使用Phantomjs完成自动登录，网络爬虫，及其Phantomjs的其他解决方案</small></p>
+      </div>
+    </div>
+
+    <div style="bottom: 20px;right: 30px;position: absolute;display: inline;">
+        <div class="pull-right" style="color:gray"><small class="phantomc1a" style="display:block;visibility: hidden;color: gray">浏览量</small><img src="images/corner/click.png" class="phantomc1" height="24" width="24">&nbsp;&nbsp;<%= phantomc %></div>
+        <div class="pull-right" style="color:gray"><small class="phantomc2a" style="display:block;visibility: hidden;color:#228B22;">挺好</small><img src="images/corner/like.png" class="phantomc2" height="22" width="22">&nbsp;&nbsp;<span class="phantomlnum"><%= phantoml %></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <script type="text/javascript">
+          var p=0
+          $(".phantomc2").click(function(){
+            if(p<2){
+              $.ajax({
+                url:'/like',
+                type:'get',
+                data:{"oneLike":"phantom"}, //get请求时数据
+                dataType:'json', //get请求时的数据格式
+                success:function(data){
+                  $(".phantomlnum").text(parseInt(data))
+                },
+                error:function(request,error){
+                  alert("Request: "+JSON.stringify(request));
+                }
+              }) 
+            } else {
+              $(".phantomc2").attr('src','images/corner/like1.png')
+            }
+               p++           
+          })
+        </script>
+        <div class="pull-right"><small class="phantomc3a" style="display:block;visibility: hidden;color:gray">百度课堂</small><a href="intabaidu"><img class="phantomc3" src="images/corner/baidu.png" height="22" width="20" style="position: relative; left: 11px"></a></div>
+        <div class="pull-right"><small class="phantomc4a" style="display:block;visibility: hidden;color:gray;position:relative; left:10px">腾讯课堂</small><a href="https://ke.qq.com/course/199112#tuin=2847ea58"><img class="phantomc4" src="images/corner/qq.png" height="24" width="24" style="position:relative; left:20px"></a></div>
+        <script type="text/javascript">
+          $(".phantomc1").hover(function(){ $(".phantomc1a").css("visibility","visible") },function(){ $(".phantomc1a").css("visibility","hidden") })
+          $(".phantomc2").hover(function(){ $(".phantomc2a").css("visibility","visible") },function(){ $(".phantomc2a").css("visibility","hidden") })
+          $(".phantomc3").hover(function(){ $(".phantomc3a").css("visibility","visible") },function(){ $(".phantomc3a").css("visibility","hidden") })
+          $(".phantomc4").hover(function(){ $(".phantomc4a").css("visibility","visible") },function(){ $(".phantomc4a").css("visibility","hidden") })
+        </script>
+    </div>
+
+  </div>
+  </div>
+
   <!-- 3.4 -->
   <a name="autolayout"></a>
   <div class="container">
@@ -636,7 +645,7 @@
   </div>
 
   <!-- 3.8 -->
-  <a name="sublime"></a>
+  <a name="backbone"></a>
   <div class="container">
   <div class="jumbotron">
 

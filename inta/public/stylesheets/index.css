@@ -1,7 +1,32 @@
-.navbar-nav li a {
-   color: red;
- }
-
-.navbar-nav a:hover {
- color: grey;
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
 }
+.footer {
+  margin:0;
+  padding:0;
+  border-radius: 0;
+}
+.forImg {
+    width: 150px;
+    border-radius: 10%;
+    /*background-color: #CD853F;*/
+    /*background-color: #891418;*/
+    border: 2px solid #A0522d;
+    box-shadow: 2px 2px 5px 4px #FAF0E6;
+}
+.imgTitle {
+    width: 150px;
+    height: 150px;
+}
+.forImg {
+-ms-transform: rotate(7deg); /* IE 9 */
+-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+transform: rotate(7deg);
+}
+.jumbotron {
+  position: relative;
+}
+
+
+

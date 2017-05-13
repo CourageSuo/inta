@@ -257,6 +257,30 @@ router.get('/intabaidu',function(req,res,next) {
   res.render('./waiting/waitke.html')
 })
 
+//海盗书店
+var ips = [];
+router.get('/piracy',function(req,res,next){
+  // console.log(req.headers['x-forwarded-for'])
+  var ip = (req.headers['x-forwarded-for'] ||
+     req.connection.remoteAddress ||
+     req.socket.remoteAddress ||
+     req.connection.socket.remoteAddress).split(",")[0]
+  
+
+  ips.push(ip)
+
+  setInterval(function(){
+    ips = []
+  },1000*60*60*24)
+
+  if(ips.indexOf(ip) < 0){
+    res.render('piracy/book.html',{download: 'yes'})
+  } else {
+    res.render('piracy/book.html',{download: 'no'})
+  }
+  
+})
+
 
 
 

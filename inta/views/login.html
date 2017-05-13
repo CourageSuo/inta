@@ -6,7 +6,7 @@
    <script src="javascripts/jquery.min.js"></script>
    <script src="javascripts/bootstrap.min.js"></script>
    <style type="text/css">
-/*      body
+/*   body
       {
           position: fixed; 
           overflow-y: scroll;
@@ -98,15 +98,15 @@
       <h4 class="ppp text-muted"><strong>--输入名称--</strong></h4><br><hr>
       <div class="input-group" >
         <span class="input-group-addon" style="background-color: #87CEEB; color: #FFFFFF">取个名儿</span>
-        <input id="msg" type="text" class="form-control" name="name" placeholder="名字" maxlength="5" required="required" pattern=".[\u4e00-\u9fa5]{1,5}">
+        <input id="msg" type="text" class="form-control" name="name" placeholder="名字" maxlength="5" required="required" title＝"名字为2到5个汉字" pattern=".[\u4e00-\u9fa5]{1,5}">
       </div>
       <div class="input-group" style="margin-top: 8px">
         <span class="input-group-addon" style="background-color: #008B8B; color: #FFFFFF">设个密码</span>
-        <input id="msg" type="password" class="form-control" name="pwd" placeholder="密码" required="required" maxlength="10">
+        <input id="msg" type="password" class="form-control" name="pwd" placeholder="密码" required="required" title="密码的长度不能大于20个字符" maxlength="20">
       </div>
       <div class="input-group" style="margin-top: 8px">
         <span class="input-group-addon" style="background-color: #2E8B57; color: #FFFFFF">留个电话</span>
-        <input id="msg" type="text" class="form-control" name="mobile" placeholder="手机" maxlength="11" required="required" pattern="0?(13|14|15|18)[0-9]{9}">
+        <input id="msg" type="text" class="form-control" name="mobile" placeholder="手机" maxlength="11" title="请您输入正确的手机号" required="required" pattern="0?(13|14|15|18)[0-9]{9}">
       </div><br>
         <div class="caption" style="text-align: left;">
           <p>注：inta限定用户名由2到5个汉字组成，不能包含任何其他字符。登录或提问会显示用户名。电话是inta联系您的方式，inta承诺不推销，不泄露。</p>
@@ -124,6 +124,11 @@
       <script type="text/javascript">//直接上传头像，当selectFile改变的时候执行头像上传
           $(document).ready(function () {
              $("#selectFile").on("change", function () {
+                  if(this.files[0].size > 2097152){
+                       alert('图片不能大于2M')
+                       document.getElementById("selectFile").value = ""
+
+                   } else {
 
                 var icon = this.files[0]
                 var fd = new FormData()
@@ -139,6 +144,7 @@
                               $('#postUrl').val(result)
                            }
                   })
+                }//else 
               });
           });
       </script>

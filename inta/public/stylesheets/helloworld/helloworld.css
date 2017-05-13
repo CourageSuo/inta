@@ -1,0 +1,169 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.containerMy {
+	height:165px;
+	border: solid 2px gray;
+	padding: 0;
+	padding-top: 15px;
+}
+
+.ptext {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.public {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.label {
+	margin-left: 10px;
+}
+
+.notransparent {
+	margin-left: -36px;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.atext {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.read {
+	margin-left: 30px;
+	border:solid 1px gray;
+	padding:1px;
+	/*margin-top: 10px;*/
+	/*vertical-align: middle;*/
+}
+.bad {
+	margin-left: 10px;
+}
+
+.rowl2 {
+	/*margin-right: 30px;*/
+	width: 190px;
+	/*float:right;*/
+	background-color: white;
+}
+
+
+.date {
+	margin-top: 20px;
+	background-color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+	border:solid 10px rgba(0,0,0,0);
+	border-top: 0px;
+	border-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 134px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */ 
+ .jumbotron {
+  margin-bottom: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+#hr1 {
+	margin-top: 0;
+}
+
+.imgTopRight {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar-inverse {
+    background-color: #555555;
+    border-color: grey;
+    color: green;
+    opacity: 0.9;
+}
+
+#forWhiteSpace {
+	white-space:pre;
+}
+
+#pWhiteSpace {
+	white-space: pre;
+}
+
+.sidenav {
+	position: fixed;
+	height: 100%;
+}
+
+.otherSide {
+	margin-left: 320px;
+}
+
+.footerz {
+	position: relative;
+	width: 100%;
+	z-index: 100;
+    bottom: 0px;
+}
+
+.iicc {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.liPage {
+	width: 15.578px;
+}
+
+.selfBlogImgDiv .uploadBlogImg {
+	max-width: 100%;
+}
+
+.headImg {
+	width: 100%;
+}
+
+.newImg {
+	position: absolute;
+	top:-15px;
+	left: 70px;
+}
+
+.imgT {
+	width: 100%;
+}
+
+.bf {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
