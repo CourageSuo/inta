@@ -71,7 +71,8 @@ var commentView = Backbone.View.extend({
 	template:_.template($("#commentTmp").html()),
 	render: function(){
 		this.model.save()
-		console.log(this.model.toJSON())
+		if(this.model.get('cIcon') === '/images/default.png') { this.model.set('cIcon','default.png') }
+		console.log(this.model.toJSON())   
 		this.$el.html(this.template(this.model.toJSON()))
 		return this
 	}

@@ -55,7 +55,7 @@ router.post('/',function(req,res,next){
 	    			res.send('ok')
 	    			db.close()
 	    		} else {
-	    			res.send('学号和密码不正确')
+	    			res.send('用户名或密码不正确')
 	    			db.close()
 	    		}
 	    	}

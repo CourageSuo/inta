@@ -21,7 +21,7 @@
               localStorage.clear()
               localStorage.setItem('setupTime', now);
           } else {
-              alert('每4个小时可以下载一本书，您可以点击图书连接一次得到多本图书')
+              alert('每4个小时可以下载一本书，您可以点击"海鲜礼包"获得多本图书')
               event.preventDefault()
           }
       }
@@ -40,8 +40,8 @@
   .spanRight {margin-right: 20px;}
   a { text-decoration: none !important; }
   .container-fluid {margin-left: 15px;}
-  .row1 { position: relative; }
-  .col1 { position: absolute; bottom: 0; right: 0 }
+  /*.row1 { position: relative; }*/
+  /*.col1 { position: absolute; bottom: 0; right: 0 }*/
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -137,18 +137,21 @@
 <div class="jumbotron jum">
   <div class="container">
   <div class="row row1">
-  <div class="col-sm-8">
+  <div class="col-sm-5">
     <h3>下载须知</h3>      
     <p>1.海盗书店提供所有中文资料<b style="color:red">免费</b>下载</p>
     <p>2.更多前沿技术原版书籍赏金获取</p>
     <p>3.更有三种"海鲜礼包"所有书籍一次带回家</p>
   </div>
+  <div class="col-sm-3"><img src="/images/piracy/punch.png"></div>
   <div class="col-sm-4 col1">
-  <a href="https://item.taobao.com/item.htm?id=550594612687"><img src="/images/piracy/cn.png" width="100px" height="100px"></a>
+  <br>
+  <p><b>任何英文资料附赠《一拳超人》Kindle版漫画一套，1-105话哦亲！</b></p>
+  <a href="https://item.taobao.com/item.htm?id=550594612687"><img src="/images/piracy/cn.png" width="100px" height="100px"></a>&nbsp;&nbsp;
   <!-- <p><small>中文资料礼包</small></p> -->
-  <a href="https://item.taobao.com/item.htm?id=550595012084"><img src="/images/piracy/en.png" width="100px" height="100px"></a>
+  <a href="https://item.taobao.com/item.htm?id=550595012084"><img src="/images/piracy/en.png" width="100px" height="100px"></a>&nbsp;&nbsp;
   <!-- <p><small>中文资料礼包</small></p> -->
-  <a href="https://item.taobao.com/item.htm?id=550648525657"><img src="/images/piracy/mix.png" width="100px" height="100px"></a>
+  <a href="https://item.taobao.com/item.htm?id=550648525657"><img src="/images/piracy/mix.png" width="100px" height="100px"></a>&nbsp;&nbsp;
   <!-- <p><small>中文资料礼包</small></p> -->
   </div>
   </div>
