@@ -71,8 +71,7 @@ var commentView = Backbone.View.extend({
 	template:_.template($("#commentTmp").html()),
 	render: function(){
 		this.model.save()
-		if(this.model.get('cIcon') === '/images/default.png') { this.model.set('cIcon','default.png') }
-		console.log(this.model.toJSON())   
+		if(this.model.get('cIcon') === '/images/default.png') { this.model.set('cIcon','default.png') }  
 		this.$el.html(this.template(this.model.toJSON()))
 		return this
 	}
@@ -82,7 +81,7 @@ var haveCommentView = Backbone.View.extend({
 	tagName:'li',
 	template:_.template($("#commentTmp").html()),
 	render:function(){
-		// if(this.model.get('cIcon') === '/images/default.png') { this.model.set('cIcon','default.png') }
+		if(this.model.cIcon === '/images/default.png') { this.model.cIcon = 'default.png'}
 		this.$el.html(this.template(this.model))
 		return this
 	}
