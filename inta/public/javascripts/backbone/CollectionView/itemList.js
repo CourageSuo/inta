@@ -82,6 +82,7 @@ var haveCommentView = Backbone.View.extend({
 	tagName:'li',
 	template:_.template($("#commentTmp").html()),
 	render:function(){
+		if(this.model.get('cIcon') === '/images/default.png') { this.model.set('cIcon','default.png') }
 		this.$el.html(this.template(this.model))
 		return this
 	}
