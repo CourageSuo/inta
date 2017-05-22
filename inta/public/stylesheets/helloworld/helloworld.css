@@ -35,7 +35,11 @@
 .atext {
 	margin-top: 10px;
 	margin-left: 20px;
+	overflow: hidden;
 	white-space:nowrap;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
 }
 .read {
 	margin-left: 30px;

@@ -68,8 +68,8 @@ router.post('/',function(req,res,next){
 	var iconname = null
 	var pa = null
 	// console.log(arr[0] + " and " + arr[1])
-	if (arr[1] === 'default.png') {
-		iconname = arr[1]
+	if (arr[1] === 'default.png' || arr[1] === 'e') {
+		iconname = 'default.png'
 		pa = "/images/"
 	} else {
 		iconname = arr[arr.length - 1]
@@ -90,8 +90,6 @@ router.post('/',function(req,res,next){
 		iconname = pa + iconname
 		// console.log(iconname)
 		db.cliStat.find(function(err,doc){
-			console.log(err)
-			console.log(doc)
 			res.render('index.html',{
 			"flag"  : 1,
 			"userN" : req.body.name,
