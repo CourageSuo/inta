@@ -1,18 +1,418 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>sublime课程</title>
-	<style type="text/css">
-		html {
-			  background: url(/images/other/next.png) no-repeat center center fixed; 
-              -webkit-background-size: cover;
-              -moz-background-size: cover;
-              -o-background-size: cover;
-              background-size: cover;
-		}
-	</style>
+	<meta charset="utf-8">
+	<title>课程大纲</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .carousel-caption {
+      left:70%;
+      right: 30%;
+      color:snow;
+      text-shadow: none;
+      position: absolute;
+      top: 0;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      height: 100%;
+      }
+    </style>
 </head>
 <body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>Backone课程大纲</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/backbone/1">
+      <img src="/images/Course/b1.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>简介</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/1">第一节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/2">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">类和对象</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/2">第二节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/3">
+      <img src="/images/Course/b2.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>继承</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/3">第三节</p></a>
+    </div>
+  </div>
+  <!-- 第二行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/backbone/4">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">视图</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/4">第四节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/5">
+      <img src="/images/Course/b1.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>模板</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/5">第五节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/6">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">模板引擎</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/6">第六节</p></a>
+    </div>
+  </div>
+  <!-- 第三行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/backbone/7">
+      <img src="/images/Course/b2.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>视图和引擎</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/7">第七节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/8">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">初识模型</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/8">第八节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/9">
+      <img src="/images/Course/b1.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>模型</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/9">第九节</p></a>
+    </div>
+  </div>
+  <!-- 第四行视频 -->
+ <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/backbone/10">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">REST</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/10">第十节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/11">
+      <img src="/images/Course/b2.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>视图和模型</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/11">第十一节</p></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/backbone/12">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">MVC</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/12">第十二节</p></a>
+    </div>
+  </div>
+  <!-- 第五行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/backbone/13">
+      <img src="/images/Course/b1.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>集合</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/13">第十三节</p></a>
+    </div>
+        <div class="col-sm-4">
+      <a href="/course/backbone/14">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">事件</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/14">第十四节</p></a>
+    </div>
+        <div class="col-sm-4">
+      <a href="/course/backbone/15">
+      <img src="/images/Course/b2.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2>路由</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/15">第十五节</p></a>
+    </div>
+  </div>
+    <!-- 第五行视频 -->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="/course/backbone/16">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">SPA</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/16">第十六节</p></a>
+    </div>
+        <div class="col-sm-4">
+      <a href="/course/backbone/17">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">MV*模式</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/17">第十七节</p></a>
+    </div>
+            <div class="col-sm-4">
+      <a href="/course/backbone/17">
+      <img src="/images/Course/b3.png" class="img-responsive" style="width:100%" alt="Image">
+          <div class="carousel-caption">
+            <h2 style="color: darkblue">其实都没有</h2>
+          </div> 
+      </a>
+      <a href="/course/backbone/17">无内容</p></a>
+    </div>
+  </div>
+</div><br>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>Backbone课程概述</h2>
+  <p>一个轻量级的前端类库</p>
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第一节：简介</div>
+      <div class="panel-body">
+      backbonejs是一个轻量级的类库
+      <br>类库：类的集合
+      <br>框架：类，数组，变量等等相关类型的集合
+      <br>Backbone.js中主要的类有Model View Collection Event Router History Sync
+      <br>使用backbone需要引入undersocre.js 和 JQuery
+      <br><a href="/downloads/jquery.min.js" download><img src="/images/other/download.png">jquery.min文件下载</a>
+      <br><a href="/downloads/underscore-min.js" download><img src="/images/other/download.png">underscore-min.js文件下载</a>
+      <br><a href="/downloads/jquery.min.js" download><img src="/images/other/download.png">backbone-min.js文件下载</a>
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第二节：类和对象</div>
+      <div class="panel-body">
+          在Backbone中使用 new 关键字创建对象
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第三节：继承</div>
+      <div class="panel-body">
+      继承就是子类可以使用父类的属性和方法
+      <br>在Backbone中，使用Extend实现继承
+      <br>【可以说A类继承自B类，亦可以说A类扩展自B类】
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第四节：View</div>
+      <div class="panel-body">
+      属性：uid每一个View对象都有唯一的uid
+      <br>属性：el表示当前元素；默认是div
+      <br>属性：$el表示可以看成是‘$’和‘el’，也就是使用JQuery语法表示当前元素
+      <br>initialize: 创建一个对象时会默认调用此方法
+      <br>tagName: 设置当前元素
+      </div>
+    </div>
+    <!-- 4 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第五节：模板</div>
+      <div class="panel-body">
+      模板：就是用同样的代码显示不同的内容
+      <br>使用&lt;script type="text/template"&gt;&lt;/script&gt;创建模板
+      </div>
+    </div>
+    <!-- 5 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第六节：模板引擎</div>
+      <div class="panel-body">
+      模板引擎有很多中，Backbone中使用underscore.js为我们提供的模板引擎
+      <br>语法为：_.template(模板)
+      <br>在模板中就可以在&lt;%- %&gt; 中添加我们的内容
+      <br>使用_.templateSettings = { interpolate: /\{\{(.+?)\}\}/g }设置模板语法为{{ }} 代替&lt;%- %&gt; 防止模板引擎冲突
+      </div>
+    </div>
+    <!-- 6 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第七节：模板引擎和View</div>
+      <div class="panel-body">
+       Backbone.View.extend({
+       <br>template:_.template(模板)
+       <br>render: function(){
+       <br>this.template({内容})
+       }
+       })
+      </div>
+    </div>
+    <!-- 7 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第八节：初识模型</div>
+      <div class="panel-body">
+        初识模型：传入模板引擎的JSON就可以认为是一个模型
+      </div>
+    </div>
+    <!-- 8 -->
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第九节：模型</div>
+      <div class="panel-body">
+        模型：得到或整合要显示到页面中的数据
+        <br>new model({数据}):直接添加模型数据
+        <br>defaults:设置默认模型数据
+        <br>toJSON:把模型转化为JSON形式
+        <br>set:设置模型数据
+        <br>get:得到模型数据中的值
+      </div>
+    </div>
+    <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第十节：REST</div>
+      <div class="panel-body">
+      REST：把服务器看成一个程序，不需要知道它怎么实现，只需要了解它的接口
+      <br>urlRoot: 设置模型访问服务器的url地址
+      <br>url: 设置url并在后面加上模型的id【如/url/id】
+      <br>save: 向数据库存入模型
+      <br>destroy: 删除数据库中的模型
+      <br>fetch: 得到数据库中的模型
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第十一节：Model和View</div>
+      <div class="panel-body">
+      【见视频】
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第十二节：MVC设计模式</div>
+      <div class="panel-body">
+      MVC是代码文件的归档方式【MVC是一种设计模式】
+      <br>M：Model模型
+      <br>V：View 视图
+      <br>C：Control 控制
+      <br>如果没有MVC任何应用程序都能实现
+      <br>MVC没有标准的规范
+      <br>良好的MVC有助于代码的维护和管理
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第十三节：集合 Collection</div>
+      <div class="panel-body">
+      集合用于管理多个模型
+      <br>add:向集合中添加模型
+      <br>remove:删除集合中的模型
+      </div>
+    </div>
+        <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第十四节：事件 Event</div>
+      <div class="panel-body">
+      事件存在于任何对象中，通俗的讲：就是调用函数的另一种方式
+      <br>on: 监听事件
+      <br>trigger: 触发事件
+      </div>
+    </div>
+            <!-- 9 -->
+     <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第十五节：路由 Router</div>
+      Router: 可以说就是使用hash调用不同的方法
+      <br>Router一般和Histroy一起使用
+      <div class="panel-body">
+
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #002A41; color: white">第十六节：SPA</div>
+      <div class="panel-body">
+      SPA：Single-page Appliction 单页面应用
+      <br>HTML代码都写在一个文件中，然后通过路由显示不同的页面
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: #0071B5; color: white">第十七节：MV*模式</div>
+      <div class="panel-body">
+      MV*模式是MVC模式的父集，或者说MV*模式包括MVC模式
+      <br>M: Model V:View
+      <br> * 在操作系统中一般表示通配符，在这里表示可以代表任何
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p style="color:#708090">能否让前端挺起脊梁就看它了</p>
+  <blockquote style="border-left-color: darkblue;">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Jeremy Ashkenas，暂且翻译为杰瑞米·阿舍肯纳斯，一个上过TIME杂志的程序员，在2010年10月就发明出了Backbone这个类库，注意Backbone不是框架，如果大家学习完整篇的课程，会发现Backbone绝对是一个轻量级的类库，轻的如果你不拿风筝的线拽住，可能就要飞了。其实Backbone是一个很好的的类库，不管在设计层面上还是应用层面上，但是杰瑞米·阿舍肯纳斯是一个人在战斗，或者说一个很小的团队在支持者Backbone的更新，然后当然胳膊拧不过大腿，慢慢的就被Google的Angular和FaceBook的React淹没了，现在说backbone.js，有些人都没听过..., 不管怎么样，Backbone也风光过，Amazon，linkin和Walmart也都使用过，最后咱就竹杖芒鞋轻胜马，也无风雨也无晴了。
+    </p>
+    <footer style="color: #0071B5">INTA课程 ---索勇</footer>
+  </blockquote>
+</div>
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+  <!-- 登录注册model -->
+  <% include ./partials/modal.html %>
 
 </body>
 </html>
