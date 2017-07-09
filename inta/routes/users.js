@@ -117,7 +117,9 @@ router.post('/',function(req,res,next){
             "phantomc": doc[10].number,
             "phantoml": doc[10].like,
             "backbonec": doc[11].number,
-            "backbonel": doc[11].like
+            "backbonel": doc[11].like,
+            "mongoosec": doc[12].number,
+            "mongoosel": doc[12].like
 		})
 
 		})

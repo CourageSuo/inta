@@ -9029,6 +9029,534 @@
                                  "url" : "/backbone/17",
                                  "name" : "第十七节：MV*模型"
                                }]
+             },
+  "mongoose/1" : { 
+               "src" : "/video/mongoose/mongoose_1.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/2" : { 
+               "src" : "/video/mongoose/mongoose_2.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/3" : { 
+               "src" : "/video/mongoose/mongoose_3.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/4" : { 
+               "src" : "/video/mongoose/mongoose_4.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/5" : { 
+               "src" : "/video/mongoose/mongoose_5.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/6" : { 
+               "src" : "/video/mongoose/mongoose_6.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/7" : { 
+               "src" : "/video/mongoose/mongoose_7.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/8" : { 
+               "src" : "/video/mongoose/mongoose_8.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/9" : { 
+               "src" : "/video/mongoose/mongoose_9.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/10" : { 
+               "src" : "/video/mongoose/mongoose_10.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
+             },
+  "mongoose/11" : { 
+               "src" : "/video/mongoose/mongoose_11.mp4",
+               "qq" : "https://ke.qq.com/course/223480#tuin=2847ea58",
+               "urlAndName" : [{
+                                 "url" : "/mongoose/1",
+                                 "name" : "第一节：MongoDB回顾"
+                               },
+                               {
+                                 "url" : "/mongoose/2",
+                                 "name" : "第二节：MongoDB驱动"
+                               },
+                               {
+                                 "url" : "/mongoose/3",
+                                 "name" : "第三节：Mongoose"
+                               },
+                               {
+                                 "url" : "/mongoose/4",
+                                 "name" : "第四节：Schema"
+                               },
+                               {
+                                 "url" : "/mongoose/5",
+                                 "name" : "第五节：Model"
+                               },
+                               {
+                                 "url" : "/mongoose/6",
+                                 "name" : "第六节：增删改查"
+                               },
+                               {
+                                 "url" : "/mongoose/7",
+                                 "name" : "第七节：数据验证"
+                               },
+                               {
+                                 "url" : "/mongoose/8",
+                                 "name" : "第八节：子文档"
+                               },
+                               {
+                                 "url" : "/mongoose/9",
+                                 "name" : "第九节：文档关联"
+                               }, 
+                               {
+                                 "url" : "/mongoose/10",
+                                 "name" : "第十节： 关联解析"
+                               },
+                               {
+                                 "url" : "/mongoose/11",
+                                 "name" : "第十一节：插件Plugin"
+                               }]
              }
 }
 
