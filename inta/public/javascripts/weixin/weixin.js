@@ -45,6 +45,10 @@ var arr = ["onMenuShareTimeline",
            "openCard"]
 
 var sig = JSON.parse(xhr.responseText)
+console.log(sig)
+console.log(sig.time)
+console.log(sig.ranStr)
+console.log(sig.hash)
 
 wx.config({
    debug:true,
