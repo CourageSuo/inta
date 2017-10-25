@@ -9,7 +9,7 @@ var url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&
 router.get("/",function(req,res){
 	https.get(url,function(res1){
 		res1.on('data',function(chunck){
-			var at = chunck.toString()
+			var at = JSON.parse(chunck.toString())
 			//获得jsapi_ticket
 			var jsUrl = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=" + at.access_token + "&type=jsapi"
 			https.get(jsUrl,function(res2){
@@ -17,6 +17,7 @@ router.get("/",function(req,res){
 					var timeStamp = Date.now()
 					var ranString = Math.random().toString(36).substring(2,12);
 					var js_ticket = chunck.toString()
+					console.log(chunck.toString())
 					var string1 = "jsapi_ticket="+js_ticket.ticket+"noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com"
 					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
 				})
