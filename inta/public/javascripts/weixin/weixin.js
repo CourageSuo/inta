@@ -43,12 +43,15 @@ var arr = ["onMenuShareTimeline",
            "addCard",
            "chooseCard",
            "openCard"]
+
+var sig = JSON.parse(xhr.responseText)
+
 wx.config({
    debug:true,
    appId:"wx41719e0c25766535",
-   timestamp:1414587457,
+   timestamp:sig.time,
    nonceStr:"Wm3WZYTPz0wzccnW",
-   signature:xhr.responseText,
+   signature:sig.hash,
    jsApiList: arr
 })
 wx.ready(function(){

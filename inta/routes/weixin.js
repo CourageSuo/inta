@@ -14,9 +14,10 @@ router.get("/",function(req,res){
 			var jsUrl = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=" + at.access_token + "&type=jsapi"
 			https.get(jsUrl,function(res2){
 				res2.on('data',function(chunck){
+					var timeStamp = Date.now()
 					var js_ticket = chunck.toString()
-					var string1 = "jsapi_ticket="+js_ticket.ticket+"noncestr=Wm3WZYTPz0wzccnW&timestamp=1414587457&url=http://www.intalesson.com"
-					res.send(sha1(string1))
+					var string1 = "jsapi_ticket="+js_ticket.ticket+"noncestr=Wm3WZYTPz0wzccnW&timestamp="+timeStamp+"&url=http://www.intalesson.com"
+					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp}))
 				})
 			})
 		})
