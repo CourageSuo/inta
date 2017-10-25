@@ -14,7 +14,7 @@ router.get("/",function(req,res){
 			var jsUrl = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=" + at.access_token + "&type=jsapi"
 			https.get(jsUrl,function(res2){
 				res2.on('data',function(chunck){
-					var timeStamp = Date.now()
+					var timeStamp = Math.floor(Date.now() / 1000)
 					var ranString = Math.random().toString(36).substring(2,12);
 					var js_ticket = JSON.parse(chunck.toString())
 					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com"
