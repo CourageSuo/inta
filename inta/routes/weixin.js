@@ -15,9 +15,10 @@ router.get("/",function(req,res){
 			https.get(jsUrl,function(res2){
 				res2.on('data',function(chunck){
 					var timeStamp = Date.now()
+					var ranString = Math.random().toString(36).substring(2,12);
 					var js_ticket = chunck.toString()
-					var string1 = "jsapi_ticket="+js_ticket.ticket+"noncestr=Wm3WZYTPz0wzccnW&timestamp="+timeStamp+"&url=http://www.intalesson.com"
-					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp}))
+					var string1 = "jsapi_ticket="+js_ticket.ticket+"noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com"
+					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
 				})
 			})
 		})

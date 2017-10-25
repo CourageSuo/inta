@@ -48,7 +48,7 @@ var sig = JSON.parse(xhr.responseText)
 
 wx.config({
    debug:true,
-   appId:"wx41719e0c25766535",
+   appId:sig.ranStr,
    timestamp:sig.time,
    nonceStr:"Wm3WZYTPz0wzccnW",
    signature:sig.hash,
