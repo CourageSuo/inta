@@ -11,6 +11,7 @@ var cj = require("./courseJson/course.json")
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var hw = require('./routes/helloworld');
+var weixin = require('./routes/weixin')
 
 var app = express();
 
@@ -34,6 +35,7 @@ app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/helloworld',hw);
+app.use('/weixin',weixin)
 
 // catch 404 and forward to error handler
 // app.use(function(req, res, next) {
