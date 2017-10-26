@@ -2,13 +2,16 @@ var express = require('express');
 var https = require('https')
 var sha1 = require('sha1')
 var rs = require('randomstring')
+var nodeCache = require('node-cache')
 var router = express.Router();
+
+var myCache = new nodeCache()
 
 var url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx41719e0c25766535&secret=93af0348d0c1c658eb004c57e6008af8"
 
-//获得access_token
-router.get("/",function(req,res){
-	https.get(url,function(res1){
+//缓存access_token
+function cacheToken(res){
+https.get(url,function(res1){
 		res1.on('data',function(chunck){
 			var at = JSON.parse(chunck.toString())
 			//获得jsapi_ticket
@@ -18,17 +21,25 @@ router.get("/",function(req,res){
 					var timeStamp = Math.floor(Date.now() / 1000)
 					var ranString = rs.generate(16)
 					var js_ticket = JSON.parse(chunck.toString())
-					console.log(js_ticket)
-					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=www.intalesson.com"
-					console.log(string1)
-					console.log(timeStamp)
-					console.log(ranString)
-					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
-
+					// console.log(js_ticket)
+					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com/"
+					// res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
+					obj = {hash:sha1(string1),time:timeStamp,ranStr:ranString};
+                    myCache.set( "myKey", obj, 60)
+                    res.send(JSON.stringify(obj))
 				})
 			})
 		})
-	})
+})
+}
+
+router.get('/',function(req,res){
+	var value = myCache.get( "myKey")
+	if(value == undefined){
+		cacheToken(res)
+	} else {
+		res.send(JSON.stringify(value))
+	}
 })
 
 module.exports = router;
