@@ -18,6 +18,7 @@ router.get("/",function(req,res){
 					var timeStamp = Math.floor(Date.now() / 1000)
 					var ranString = rs.generate(16)
 					var js_ticket = JSON.parse(chunck.toString())
+					console.log(js_ticket)
 					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com"
 					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
 				})
