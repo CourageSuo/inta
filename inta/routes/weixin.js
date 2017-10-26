@@ -19,8 +19,12 @@ router.get("/",function(req,res){
 					var ranString = rs.generate(16)
 					var js_ticket = JSON.parse(chunck.toString())
 					console.log(js_ticket)
-					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com"
+					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=www.intalesson.com"
+					console.log(string1)
+					console.log(timeStamp)
+					console.log(ranString)
 					res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
+
 				})
 			})
 		})

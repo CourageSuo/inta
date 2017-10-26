@@ -51,7 +51,7 @@ wx.config({
    appId:"wx41719e0c25766535",
    timestamp:sig.time,
    nonceStr:sig.ranStr,
-   signature:"c2e704af507e3cae46a802e7a12057d024660da2",
+   signature:sig.hash,
    jsApiList: arr
 })
 wx.ready(function(){
