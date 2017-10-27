@@ -48,7 +48,8 @@ var sig = JSON.parse(xhr.responseText)
 
 wx.config({
    debug:true,
-   appId:"wx41719e0c25766535",
+   // appId:"wx41719e0c25766535",
+   appId:"wxb209a3d055750265",
    timestamp:sig.time,
    nonceStr:sig.ranStr,
    signature:sig.hash,
@@ -57,7 +58,7 @@ wx.config({
 wx.ready(function(){
     wx.onMenuShareTimeline({
     title: 'INTA课程', // 分享标题
-    link: 'http://www.intalesson.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    link: 'http://www.intalesson.com/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
     imgUrl: '/wechat.jpg', // 分享图标
     success: function () { 
         // 用户确认分享后执行的回调函数
