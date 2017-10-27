@@ -7,7 +7,8 @@ var router = express.Router();
 
 var myCache = new nodeCache()
 
-var url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx41719e0c25766535&secret=93af0348d0c1c658eb004c57e6008af8"
+// var url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx41719e0c25766535&secret=93af0348d0c1c658eb004c57e6008af8"
+var url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxb209a3d055750265&secret=d4f85205c5d28d614d7d73ea6ce18c70"
 
 //缓存access_token
 function cacheToken(res){
@@ -25,7 +26,7 @@ https.get(url,function(res1){
 					var string1 = "jsapi_ticket="+js_ticket.ticket+"&noncestr="+ranString+"&timestamp="+timeStamp+"&url=http://www.intalesson.com/"
 					// res.send(JSON.stringify({hash:sha1(string1),time:timeStamp,ranStr:ranString}))
 					obj = {hash:sha1(string1),time:timeStamp,ranStr:ranString};
-                    myCache.set( "myKey", obj, 60)
+                    myCache.set( "myKey", obj, 7200)
                     res.send(JSON.stringify(obj))
 				})
 			})
