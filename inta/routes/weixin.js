@@ -15,6 +15,7 @@ function cacheToken(res){
 https.get(url,function(res1){
 		res1.on('data',function(chunck){
 			var at = JSON.parse(chunck.toString())
+			console.log(at.access_token)
 			//获得jsapi_ticket
 			var jsUrl = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=" + at.access_token + "&type=jsapi"
 			https.get(jsUrl,function(res2){
