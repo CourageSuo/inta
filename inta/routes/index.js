@@ -39,7 +39,9 @@ router.get('/', function(req, res, next) {
       "mongoosec": doc[12].number,
       "mongoosel": doc[12].like,
       "dockerc":doc[13].number,
-      "dockerl":doc[13].like
+      "dockerl":doc[13].like,
+      "jsInterviewc":doc[14].number,
+      "jsInterviewl":doc[14].like
     });
   } else {
     cdb.cMongoIcon(req.cookies.intaUserName,function(err,db,icon,uid){
@@ -75,7 +77,9 @@ router.get('/', function(req, res, next) {
       "mongoosec": doc[12].number,
       "mongoosel": doc[12].like,
       "dockerc":doc[13].number,
-      "dockerl":doc[13].like
+      "dockerl":doc[13].like,
+      "jsInterviewc":doc[14].number,
+      "jsInterviewl":doc[14].like
       })
       // db.close()
     })
@@ -117,8 +121,8 @@ router.get('/course/:course/:num',function(req,res,next) {
 	var urlParam = req.params.course + '/' + req.params.num
   var courseNum = req.params.course + '_' + req.params.num
 	var courseContent = courseKey[urlParam]//使用中括号访问数据
-
-    if(req.cookies.intaUserName === undefined) {
+  
+      if(req.cookies.intaUserName === undefined) {
     	 // res.render('course.html',{
         // var mjs = require('mongojs')
         var db = require('mongojs')('INTA')

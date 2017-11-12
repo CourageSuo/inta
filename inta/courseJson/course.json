@@ -10451,7 +10451,58 @@
                                  "url" : "/docker/13",
                                  "name" : "第十三节：docker架构"
                                }]           
-             }
+             },
+  "闭包/1" : {
+                  "src" : "/video/jsInterview/闭包_1.mp4",
+                  "qq" : "https://ke.qq.com/course/242291#tuin=2847ea58",
+                  "tt" : "https://ke.qq.com/course/255025",
+                  "urlAndName" : [{
+                                   "url" : "/闭包/1",
+                                   "name" : "闭包"
+                                 },
+                                 {
+                                   "url" : "/原型链/2",
+                                   "name" : "原型链"
+                                 },
+                                 {
+                                   "url" : "/继承/3",
+                                   "name" : "继承"
+                                 }]
+                },
+  "原型链/2" : {
+                  "src" : "/video/jsInterview/原型链_2.mp4",
+                  "qq" : "https://ke.qq.com/course/242291#tuin=2847ea58",
+                  "tt" : "https://ke.qq.com/course/255025",
+                  "urlAndName" : [{
+                                   "url" : "/闭包/1",
+                                   "name" : "闭包"
+                                 },
+                                 {
+                                   "url" : "/原型链/2",
+                                   "name" : "原型链"
+                                 },
+                                 {
+                                   "url" : "/继承/3",
+                                   "name" : "继承"
+                                 }]
+                },
+  "继承/3" : {
+                  "src" : "/video/jsInterview/继承_3.mp4",
+                  "qq" : "https://ke.qq.com/course/242291#tuin=2847ea58",
+                  "tt" : "https://ke.qq.com/course/255025",
+                  "urlAndName" : [{
+                                   "url" : "/闭包/1",
+                                   "name" : "闭包"
+                                 },
+                                 {
+                                   "url" : "/原型链/2",
+                                   "name" : "原型链"
+                                 },
+                                 {
+                                   "url" : "/继承/3",
+                                   "name" : "继承"
+                                 }]
+                }
 }
 
 

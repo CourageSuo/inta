@@ -59,7 +59,7 @@ wx.ready(function(){
     wx.onMenuShareTimeline({
     title: 'INTA课程', // 分享标题
     link: 'http://www.intalesson.com/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-    imgUrl: '/wechat.jpg', // 分享图标
+    imgUrl: 'http://www.intalesson/wechat.jpg', // 分享图标
     trigger:function(){
     },
     success: function () { 

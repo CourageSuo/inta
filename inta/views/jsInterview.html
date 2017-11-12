@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>课程大纲</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+    <style type="text/css">
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    </style>
+</head>
+<body>
+  <!-- 第一块区域导航栏 -->
+  <% include ./partials/nav.html %>
+<div class="container text-center">    
+  <h3>面试三宝</h3><br>
+  <!-- 第一行视频 -->
+<div class="row">
+    <div class="col-sm-4">
+      <a href="/course/闭包/1">
+      <img src="/images/Course/jsiv1.png" class="img-responsive" style="width:100%" alt="Image">
+      <!-- <p>闭包</p> -->
+      </a><br>
+      <!-- <a href="/course/jsInterview/1">闭包</a> -->
+    </div>
+    <div class="col-sm-4"> 
+      <a href="/course/原型链/2">
+      <img src="/images/Course/jsiv2.png" class="img-responsive" style="width:100%" alt="Image">
+      <!-- <p>原型链</p> -->
+      </a><br>
+      <!-- <a href="/course/jsInterview/2">原型链</a>   -->
+    </div>
+    <div class="col-sm-4">
+      <a href="/course/继承/3">
+       <img src="/images/Course/jsiv3.png" class="img-responsive" style="width:100%" alt="Image">
+      <!-- <p>继承</p> -->
+      </a> <br>
+      <!-- <a href="/course/jsInterview/3">继承</a>  -->
+    </div>
+  </div>
+</div>
+
+<!-- 视频知识文字版 -->
+<div class="container brief">
+  <h2>INTA定义</h2>
+  <!-- <p style="color: #6dac4c;">只为让大家更好理解</p> -->
+  <div class="panel-group">
+  <!-- 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">闭包</div>
+      <div class="panel-body">
+闭包就是函数中的函数实现外层函数中的变量不释放
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">原型链</div>
+      <div class="panel-body">
+原型（prototype）是一次性给一堆对象添加属性和方法的对象
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">继承</div>
+      <div class="panel-body">
+继承：复用其他类的属性和方法，扩展自己的属性和方法
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 技术史 -->
+<div class="container">
+  <h2>那年程序员</h2>
+  <p>如果连闭包，原型链，继承都不问的公司一定是个骗子公司</p>
+  <blockquote>
+    <p>今天是11月11日，INTA课程更新了闭包，原型链，继承相关视频。</p>
+    <footer>www.intalesson.com</footer>
+  </blockquote>
+</div>
+
+
+<!-- 下面是footer部分 -->
+  <footer class="container-fluid text-right">
+     <div style="margin: 0;padding: 0;">
+   <img src="/images/point.png" style="width: 100px;height: 40px;" />
+   </div>
+  </footer>
+
+</body>
+</html>

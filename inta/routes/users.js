@@ -121,7 +121,9 @@ router.post('/',function(req,res,next){
             "mongoosec": doc[12].number,
             "mongoosel": doc[12].like,
             "dockerc":doc[13].number,
-            "dockerl":doc[13].like
+            "dockerl":doc[13].like,
+            "jsInterviewc":doc[14].number,
+            "jsInterviewl":doc[14].like
 		})
 
 		})
