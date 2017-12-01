@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 var moment = require('moment')
 
-var dbURI = 'mongodb://localhost/INTA'
+var dbURI = 'mongodb://inta:mnbv8765@localhost/INTA'
 mongoose.Promise = global.Promise
 mongoose.connect(dbURI)
 

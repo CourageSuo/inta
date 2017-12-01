@@ -1,7 +1,7 @@
 var mongojs = require('mongojs')
 
 var connectMongoForIcon = function (name,callback) {
-	var db = mongojs('INTA')
+	var db = mongojs('inta:mnbv8765@localhost/INTA')
 
     db.collection('userNum').find({userName:name}).toArray(function(err,docs){
     	uIcon = docs[0].userIcon
