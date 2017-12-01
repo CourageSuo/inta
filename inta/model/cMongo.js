@@ -11,14 +11,14 @@ var connectMongoForIcon = function (name,callback) {
 }
 
 var putMongoForComment = function(courseName,userInfo,callback) {
-	var db = mongojs('INTA',['course'])
+	var db = mongojs('inta:mnbv8765@localhost/INTA',['course'])
 	db.course.update({_id:courseName},{$addToSet:{courseComment:userInfo}},function(err){
 		callback(err,db)
 	})
 }
 
 var replyForComment = function(ucid,courseName,userInfo,callback) {
-	var db = mongojs('INTA',['course'])
+	var db = mongojs('inta:mnbv8765@localhost/INTA',['course'])
 	var ats = {$addToSet:{}}
 	ats.$addToSet['courseComment.' + ucid + '.commentReply'] = userInfo
 
@@ -28,28 +28,28 @@ var replyForComment = function(ucid,courseName,userInfo,callback) {
 }
 
 var clickStatistics = function(courseName) {
-	var db = mongojs('INTA',['cliStat'])
+	var db = mongojs('inta:mnbv8765@localhost/INTA',['cliStat'])
 	db.cliStat.update({_id:courseName},{$inc:{"number":1}})
 	db.close()
 	
 }
 
 var myInta = function(callback){
-	var db = mongojs('INTA')
+	var db = mongojs('inta:mnbv8765@localhost/INTA')
 	db.cliStat.find(function(err,doc){
 		callback(err,doc,db)
 	})
 }
 
 var cornerConnect = function(courseName,callback) {
-	var db = mongojs('INTA')
+	var db = mongojs('inta:mnbv8765@localhost/INTA')
 	db.collection(courseName).find(function(err,doc){
 		callback(err,doc,db)
 	})
 }
 
 var cornerInsert = function(courseName){
-	var db = mongojs('INTA')
+	var db = mongojs('inta:mnbv8765@localhost/INTA')
 	db.cliStat.update({_id:courseName},{$inc:{"like":1}})
 	db.close()
 
