@@ -125,7 +125,7 @@ router.get('/course/:course/:num',function(req,res,next) {
       if(req.cookies.intaUserName === undefined) {
     	 // res.render('course.html',{
         // var mjs = require('mongojs')
-        var db = mongojs('inta:mnbv8765@localhost/INTA')
+        var db = require('mongojs')('inta:mnbv8765@localhost/INTA')
         db.collection('course').findOne({_id:courseNum},function(err,doc){
           if(err) throw err
           res.render('course.html',{
