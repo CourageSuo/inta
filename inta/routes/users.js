@@ -11,7 +11,7 @@ var fs = require('fs')
 
 /* GET users listing. */
 router.get('/', function(req, res, next) { 
-  var db = mongojs('INTA', ['userNum'])
+  var db = mongojs('inta:mnbv8765@localhost/INTA', ['userNum'])
   db.userNum.find().sort({_id: -1}, function (err, docs) {
     if(err) throw err
     	var max = docs[0]._id
@@ -42,7 +42,7 @@ router.post('/',function(req,res,next){
 		var luser = req.body.user
 		var lpwd = req.body.pass
 
-		var db = mongojs('INTA', ['userNum'])
+		var db = mongojs('inta:mnbv8765@localhost/INTA', ['userNum'])
 	    var query = {userName:luser}
 	    db.userNum.find(query).toArray(function (err, docs) {
 	    	if(docs.length === 0){
@@ -77,7 +77,7 @@ router.post('/',function(req,res,next){
 	}
 	// var iconname = arr[arr.length-1]
 	//update to database
-	var db = mongojs('INTA')
+	var db = mongojs('inta:mnbv8765@localhost/INTA')
 	var update = {$set: {userName:req.body.name,userIcon:iconname,usePwd:req.body.pwd,userMobile:req.body.mobile}}
 	var query = {_id:parseInt(req.body.num)}//把字符型转化为数值类型
 	db.userNum.update(query,update)

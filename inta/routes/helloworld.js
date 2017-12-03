@@ -30,7 +30,7 @@ router.get('/',helloworld)
 var authentication = function(req,res,next){
 	var luser = req.body.userName
 	var lpwd  = req.body.passWord
-    var db = mongojs('INTA', ['userNum'])
+    var db = mongojs('inta:mnbv8765@localhost/INTA', ['userNum'])
     var query = {userName:luser}
     db.userNum.find(query).toArray(function (err, docs) {
     	if(docs.length === 0){
@@ -59,7 +59,7 @@ router.get('/public',publicPage)
 
 //4.receive hello world publish
 var publicRec = function(req,res,next){
-    var db = mongojs('INTA', ['userNum'])
+    var db = mongojs('inta:mnbv8765@localhost/INTA', ['userNum'])
     var query = {userName:req.cookies.intaUserName}
     db.userNum.findOne(query,function(err,doc){
         var icon = doc.userIcon
